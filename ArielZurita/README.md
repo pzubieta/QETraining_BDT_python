@@ -5,3 +5,6 @@ Practices for Python and Behave for QE Training program
 Folder for scripts and code for:
 
 Ariel Zurita Merida‎
+
+
+>>>>>>> Test adding this note <<<<<<<<
