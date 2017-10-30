@@ -1,26 +1,34 @@
-numero1 = 4
-numero2 = 2
-resultadoDeLasOperaciones = 0
+thisIsALongNameForNumericVariable_1 = 4
+thisIsALongNameForNumericVariable_2 = 2
 
-caracterNumero1 = "Hola"
-caracterNumero2 = "Mundo"
+#Operator Addition
+print("%d + %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 + thisIsALongNameForNumericVariable_2)
 
-#Operador suma
-print("Esta es la suma", numero1 + numero2)
+#Operator Subtraction
+print("%d - %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 - thisIsALongNameForNumericVariable_2)
 
-#Operador resta
-print ("Esta es la resta", numero1 - numero2)
-
-#Operador multiplicacion
-print ("Esta es la multiplicacion", numero1 * numero2)
-
-#Operador division
-print ("Esta es la division", numero1 / numero2)
-
-#Operador exponente
-print ("Esta es el resultado de",numero1,"elevado a", numero2,"es" numero1**numero2)
+#Operator Multiplication
+print("%d * %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 * thisIsALongNameForNumericVariable_2)
 
 
+#Operator / Division
+print("%d / %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 / thisIsALongNameForNumericVariable_2)
 
 
+#Operator % Modulus
+print("%d modulo %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 % thisIsALongNameForNumericVariable_2)
 
+
+#Operator Exponent **
+print("%d ** %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 ** thisIsALongNameForNumericVariable_2)
+
+
+#Operator //
+print("%d // %d  =" %(thisIsALongNameForNumericVariable_1, thisIsALongNameForNumericVariable_2),
+      thisIsALongNameForNumericVariable_1 // thisIsALongNameForNumericVariable_2)
