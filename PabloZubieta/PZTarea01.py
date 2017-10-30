@@ -27,19 +27,19 @@ def do_operations(value_1, value_2, strValue_3,  value_4):
     print("Pow: ",value_1, " ** ", val_in," = ", value_1 ** value_2[6])
 
     if strValue_3 == "+":
-        print("The required operation is Sum: ", value_1, " + ", value_2[value_4], " = ", value_1 + value_2[value_4])
+        print("The required operation is Sum: %s" % (value_1), " + ", value_2[value_4], " = ", value_1 + value_2[value_4])
     elif strValue_3 == "-":
-        print("The required operation is Substraction: ", value_1, " - ", value_2[value_4], " = ", value_1 - value_2[value_4])
+        print("The required operation is Substraction: %s" % (value_1), " - ", value_2[value_4], " = ", value_1 - value_2[value_4])
     elif strValue_3 == "*":
-        print("The required operation is Multiplication:", value_1, " * ", value_2[value_4], " = ", value_1 * value_2[value_4])
+        print("The required operation is Multiplication: %s" % (value_1), " * ", value_2[value_4], " = ", value_1 * value_2[value_4])
     elif strValue_3 == "/":
-        print("The required operation is Division:", value_1, " / ", value_2[value_4], " = ", value_1 / value_2[value_4])
+        print("The required operation is Division: %s" % (value_1), " / ", value_2[value_4], " = ", value_1 / value_2[value_4])
     elif strValue_3 == "//":
-        print("The required operation is Floor Division:", value_1, " // ", value_2[value_4], " = ", value_1 // value_2[value_4])
+        print("The required operation is Floor Division: %s" % (value_1), value_1, " // ", value_2[value_4], " = ", value_1 // value_2[value_4])
     elif strValue_3 == "%":
-        print("The required operation is Modulus:", value_1, " % ", value_2[value_4], " = ", value_1 % value_2[value_4])
+        print("The required operation is Modulus: %s" % (value_1), " % ", value_2[value_4], " = ", value_1 % value_2[value_4])
     elif strValue_3 == "**":
-        print("The required operation is Power: ", value_1, " ** ", value_2[value_4], " = ", value_1 ** value_2[value_4])
+        print("The required operation is Power: %s" % (value_1), " ** ", value_2[value_4], " = ", value_1 ** value_2[value_4])
 
 print_type(["test", "Dog", "cat", "test2"])
-do_operations(5, [20, 9, 0, 3, 7, 9, 3], "*", 3)
+do_operations(5, [20, 9, 0, 4, 7, 9, 14], "+", 0)
