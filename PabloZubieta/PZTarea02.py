@@ -33,13 +33,26 @@ def evenOddCheck(numList):
 
 
 def primesFrom(rangeNum):
-    count = 1
-    while count < rangeNum:
-        count = count + 1
-        if rangeNum > 35:
-            print("the number is greater than 35: ", rangeNum)
-            continue
 
+
+    last_prime_number = 1
+
+    for i in rangeNum:
+        count = i
+        while count > 1:
+
+            if rangeNum > 35:
+                print("the number is greater than 35: ", rangeNum)
+                break
+            if (count % i) == 0:
+
+                count = count - 1
+
+                if numbers[count]:
+                 last_prime_number = count
+                 break
+                 count += 1
+                 i = last_prime_number
 
 #------------------------------------------------------------------------------
 
@@ -49,9 +62,10 @@ def daysInMonth(monthReq):
         print("The ", monthReq, " moth has: 31 days.")
     elif monthReq == "April" or monthReq == "june" or monthReq == "September" or monthReq == "November":
         print("The",  monthReq, " moth has: 30 days.")
-    else :
+    elif monthReq == "February":
         print("The ", monthReq, " moth has: 28 days.")
-
+    else:
+        print("invalid parameter")
 numb = [9, 1, 3, 2]
 evenOddCheck(numb)
 primesFrom(35)
