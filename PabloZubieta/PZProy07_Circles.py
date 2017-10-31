@@ -1,15 +1,20 @@
 def area_of_circle (radius):
+    #calculates the circle area for given radius in a list when radius are greater than 10
     res = 0
 
     for r in radius:
-        if r>10: print ("Area = ",3.14159265 * (r ** 2))
+        if r > 10 : print ("Area = ", 3.14159265 * (r ** 2))
+
 
 def sum_to (n):
     count = 0
     sum = 0
-    while count < n:
+
+    if n > 35 : n = 35
+
+    while count <= n:
         sum = sum + n
-        count += count
+        count = count + 1
 
     print("Sum to ", n," is: ", sum)
 
