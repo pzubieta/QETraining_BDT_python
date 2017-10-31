@@ -95,7 +95,7 @@ def days_in_month(list_of_months):
 #### TESTS#####
 
 
-test_month = ['January', 'February', 'November']
+test_month = ['January', 'February', 'November', 'Nocember']
 print(days_in_month(test_month))
 
 test_sum = [10,20,30,35,40]
