@@ -1,0 +1,233 @@
+hello
+hello all
+hello 2
+
+Administrator@bdt-python-8 MINGW64 /c/BDT
+$ git clone https://github.com/JulietaEscalera2/QETraining_BDT_python.git
+Cloning into 'QETraining_BDT_python'...
+remote: Counting objects: 45, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 45 (delta 19), reused 45 (delta 19), pack-reused 0
+Unpacking objects: 100% (45/45), done.
+
+Administrator@bdt-python-8 MINGW64 /c/BDT
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@bdt-python-8 MINGW64 /c/BDT
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Administrator@bdt-python-8 MINGW64 /c/BDT
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@bdt-python-8 MINGW64 /c/BDT
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@bdt-python-8 MINGW64 /c/BDT
+$ cd QETraining_BDT_python/JulietaEscalera/
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hello.txt
+        test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git add .
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hello.txt
+        new file:   test/test.txt
+
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hello.txt
+        new file:   test/test.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   hello.txt
+
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git add hello.txt
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git get status
+git: 'get' is not a git command. See 'git --help'.
+
+The most similar command is
+        grep
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hello.txt
+        new file:   test/test.txt
+
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ ls
+hello.txt  README.md  test/
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git commit -m "practice git"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@bdt-python-8.(none)')
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git config --global user.name "Julieta"
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git commit -m "practice git"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@bdt-python-8.(none)')
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hello.txt
+        new file:   test/test.txt
+
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git commit -m 'practice git'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@bdt-python-8.(none)')
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git config --global user.name "Julieta"
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git commit -m 'practice git'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@bdt-python-8.(none)')
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git config --global user.email "julieta.escalera@gmail.com"
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git config --global user.name "Julieta"
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git commit -m 'practice git'
+[master 19c1411] practice git
+ 2 files changed, 2 insertions(+)
+ create mode 100644 JulietaEscalera/hello.txt
+ create mode 100644 JulietaEscalera/test/test.txt
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   hello.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@bdt-python-8 MINGW64 /c/BDT/QETraining_BDT_python/JulietaEscalera (master)
+$ git add

@@ -1,0 +1,28 @@
+print('test')
+type(3.4)
+a=30
+b=20
+print(a+b)
+a-b
+#start the script 1
+print('start the script 1')
+var_long_test_signature_python_10= 5
+v2_long_test_signature_python = 4
+
+result_1=var_loang_test_signature_python_10 + v2_long_test_signature_python
+print('Add', '--->',result_1)
+result_2=var_long_test_signature_python_10 - v2_long_test_signature_python
+print('subtraction', '--->',result_2)
+result_3=var_long_test_signature_python_10 / v2_long_test_signature_python
+print('division', '--->',result_3)
+result_4=var_long_test_signature_python_10 % v2_long_test_signature_python
+print('modulus', '--->',result_4)
+result_5=var_long_test_signature_python_10 ** v2_long_test_signature_python
+print('Exponent', '--->',result_5)
+result_6= v2_long_test_signature_python // var_long_test_signature_python_10
+print('// 1', '--->',result_6)
+result_7=  var_long_test_signature_python_10//  v2_long_test_signature_python
+print('// 2', '--->',result_6)
+
+
+

@@ -1,7 +1,8 @@
-# API Testing - QE Training
+﻿# API Testing - QE Training
 
 Practices for Python and Behave for QE Training program
 
 Folder for scripts and code for:
 
-Gladys Copaga Choque‎
+Gladys Copaga Choque
+# Adding a line‎
