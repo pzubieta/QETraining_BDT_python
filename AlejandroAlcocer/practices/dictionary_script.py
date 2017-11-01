@@ -10,7 +10,7 @@ def find_url(url_string):
     # print(url_string[url_string.find('http'): url_string.find('.com')])
 
 
-def replace_letter(string_to_change, letter_to_change, new_letter):
+def replace_letters(string_to_change, letter_to_change, new_letter):
     """
     This method replace a letter for another in a given string.
     :param string_to_change: The string where the changes will be made.
@@ -21,11 +21,8 @@ def replace_letter(string_to_change, letter_to_change, new_letter):
     string_to_change.lower()
     letter_to_change.lower()
     new_letter.lower()
-    index = 0
-    for letter in string_to_change:
-        if letter == letter_to_change:
-            string_to_change = string_to_change[:index] + new_letter + string_to_change[index + 1:]
-        index += 1
+    string_to_change = string_to_change.split(letter_to_change)
+    string_to_change = new_letter.join(string_to_change)
     return string_to_change
 
 
@@ -50,10 +47,10 @@ def counting_letter_in_a_string(string_to_count):
 test_string_to_count = 'something In The way'
 print(counting_letter_in_a_string(test_string_to_count))
 
-test_string_to_change = 'this is the new word'
-test_letter = 's'
-test_new_letter = 'n'
-print(replace_letter(test_string_to_change, test_letter, test_new_letter))
+test_string_to_change = 'I love spom! Spom is my favorite food.Spom, spom, yum!'
+test_letter = 'om'
+test_new_letter = 'am'
+print(replace_letters(test_string_to_change, test_letter, test_new_letter))
 
 test_url_string = 'I am in https://google.com this should not care'
 print(find_url(test_url_string))
