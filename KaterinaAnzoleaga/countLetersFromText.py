@@ -4,7 +4,7 @@ def countLetters (text):
     for i in text:
         i=i.lower()
         if i != " ":
-            if dic.has_key(i):
+            if i in dic.keys():
                 new_value = dic[i]+1
                 new_elem = {i:new_value}
                 dic.update (new_elem)
@@ -15,6 +15,6 @@ def countLetters (text):
 iterations = 0
 text = 'test'
 while text and iterations <=10:
-    text = raw_input ("Ingrese un texto: ")
-    print ('El numero de ocurrencias de cada letra es: ', countLetters(text))
+    text = input ("Ingrese un texto: ")
+    print ("El numero de ocurrencias de cada letra es: ", countLetters(text))
     iterations +=1
