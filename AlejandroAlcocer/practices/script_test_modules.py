@@ -49,7 +49,9 @@ def calculate_all(users_dic):
     return new_users_dic
 
 def run_all():
-    print(calculate_all(insert_users()))
+    dictionary = calculate_all(insert_users())
+    for name in dictionary:
+        print(name, dictionary[name])
 
 #############   TESTS   ################
 
