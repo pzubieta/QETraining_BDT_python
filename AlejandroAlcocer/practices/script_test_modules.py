@@ -1,5 +1,7 @@
 import AlejandroAlcocer.practices.calculate_age_module as ages
 import AlejandroAlcocer.practices.print_messages_module as prints
+import AlejandroAlcocer.practices.calculate_perimeter as circ_perimeter
+import AlejandroAlcocer.practices.calculate_area as circ_area
 
 #############   FUNCTIONS   ################
 
@@ -48,11 +50,22 @@ def calculate_all(users_dic):
         list_for_key = []
     return new_users_dic
 
-def run_all():
+def circle_attributes():
+    radius = int(input('Insert a radius of a circle: '))
+    print('the area of the circle is: {}'.format(circ_area.calculate_area_circle(radius)))
+    print('the perimeter of the circle is: {}'.format(circ_perimeter.calculate_perimeter_circle(radius)))
+
+def run_names():
     dictionary = calculate_all(insert_users())
     for name in dictionary:
         print(name, dictionary[name])
 
-#############   TESTS   ################
 
-run_all()
+def select_script():
+    option = input('select script, options available are 1 and 2: ').strip()
+    if option == '1': run_names()
+    elif option == '2': circle_attributes()
+    else: print('invalid option leaving the script')
+
+#############   TESTS   ################
+select_script()
