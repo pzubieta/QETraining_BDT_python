@@ -52,7 +52,6 @@ except:
 symbol = input('Introduce el operador (+,-,*,/,%,//,**): ')
 
 operator = operator(str(symbol))
-print (operator)
 if operator not in ('modulo', 'exponente'):
     print ("La ", operator, "de ", num_a, "y ", num_b, "es: ", calc(num_a, num_b, symbol))
 else:
