@@ -46,6 +46,10 @@ test_sms_store.add_new_arrival(55, 45, "testing a text message 3")
 test_sms_store.add_new_arrival(55, 45, "testing a text message 4")
 test_sms_store.set_message_to_read(0)
 test_sms_store.set_message_to_read(1)
+print(test_sms_store.get_all_messages())
 print(test_sms_store.get_unread_indexes())
-
+print(test_sms_store.get_message(3))
+print(test_sms_store.message_count())
+test_sms_store.clear()
+print(test_sms_store.get_all_messages())
 
