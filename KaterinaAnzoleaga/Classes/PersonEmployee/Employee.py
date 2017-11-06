@@ -10,5 +10,4 @@ class Employee(Person):
         tuple = (self.name, self.last, self.age, self.CI, self.employee_id, self.department)
         return (tuple)
 
-my_emp = Employee ('Carlos', 'Lopez', 35, '24165465', 45, 'Supoort')
-print (my_emp.getObject())
+
