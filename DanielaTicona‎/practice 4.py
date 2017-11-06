@@ -59,9 +59,8 @@ for i in range (len(y)):
         print "nuu hay"
 print "the String is:", y
 print alpha
-
-
-#print alpha.keys(), alpha.values()
+# test
+#mmg  print alpha.keys(), alpha.values()
 
 
 
