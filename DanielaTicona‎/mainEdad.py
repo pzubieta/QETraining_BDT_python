@@ -6,7 +6,7 @@ count=0
 
 print("\n")
 listUsr={}
-
+#INTRODUCE USUARIOS
 while count< Int_numUsr:
     print count
     name=raw_input("introduzca el nombre usario:")

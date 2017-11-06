@@ -1,4 +1,3 @@
-
 def agetype(n):
    if n < 12:
        print("you are a child")
@@ -10,3 +9,4 @@ def agetype(n):
        print("you are a adult")
    else:
        print("Soy un Zombie")
+#TADA
