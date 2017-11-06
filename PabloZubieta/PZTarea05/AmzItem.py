@@ -1,36 +1,49 @@
+import logging
+
+logging.basicConfig(filename='example.log', level=logging.INFO)
+
 class AmzItem:
     """This is the class that holds Items for the store"""
 
     def __init__(self, intId, strName, fltPrice, intAmount = 0):
-        self.intId = intId
-        self.intAmount = intAmount
-        self.strName = strName
-        self.fltPrice = fltPrice
+        logging.info('***************Starting.')
+        self.id = intId
+        self.amount = intAmount
+        self.name = strName
+        self.price = fltPrice
 
     def __str__(self):
-        return "%s %s %s %s" % (self.intId, self.intAmount, self.strName, self.fltPrice)
+        return "%s %s %s %s" % (self.id, self.amount, self.name, self.price)
 
     def __getattribute__(self, attr):
         return object.__getattribute__(self, attr)
 
-    def setId (intId):
-        self.intId = intId
+    def sellItem(self, intAmount):
+        self.amount = self.amount - intAmount
+        logging.info('Selling ITEM')  # Logging the sell of items
 
-    def setAmount (intAmount):
-        self.intAmount = intAmount
+    def pickupItem(self, intAmount):
+        self.amount = self.amount + intAmount
 
-    def setName(strName):
-        self.strname = strName
+    def setId (self, intId):
+        self.id = intId
 
-    def setPrice(fltPrice):
-        self.fltPrice = fltPrice
+    def setAmount(self, intAmount):
+        logging.info('ITEM ammount updated.')  # Logging the sell of items
+        self.amount = intAmount
 
-    def getAmount ():
-        return self.intAmount
 
-    def getName():
-        return self.strName
+    def setName(self, strName):
+        self.name = strName
 
-    def getPrice():
-        return self.fltPrice
+    def setPrice(self, fltPrice):
+        self.price = fltPrice
 
+    def getAmount (self):
+        return self.amount
+
+    def getName(self):
+        return self.name
+
+    def getPrice(self):
+        return self.price
