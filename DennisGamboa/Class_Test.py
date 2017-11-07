@@ -13,7 +13,7 @@ class SMS_store:
         result = []
         #print(self.store)
         for (i, v) in enumerate(self.store):
-            #print("i", i, "--->", "v", v)
+            print("i", i, "--->", "v", v)
             if v[0] == "Read: False":
                 result.append(i)
         return result
