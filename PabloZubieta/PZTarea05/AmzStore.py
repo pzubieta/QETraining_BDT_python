@@ -31,15 +31,13 @@ class AmzStore:
         logging.info("Listing Items.")  # Logging the sell
 
 my_store = AmzStore("tienda test1")
-my_store.append("1", "Samsung S8 plus", 750, 5)
-my_store.append("3", "Samsung S7", 550, 5)
-my_store.sell_item("003", 1)
-#myStore.add_item("002", "Huawei Mate 8", 550, 4)
+my_store.append(1, "Samsung S8 plus", 750, 5)
+my_store.append(3, "Samsung S7", 550, 5)
+my_store.append(2, "Huawei Mate 8", 550, 4)
 
 print ("\n")
 print ("ITEM: ", my_store.items_list()[0])
 for single_item in my_store.items_list():
     print (single_item,"\n" )
 
-my_store2 = AmzStore("tienda2 test2")
-my_store2.append("002","Huawei Mate 8", 755,6)
+my_store.sell_item(2, 1)
