@@ -12,6 +12,9 @@ class SMS:
     def set_state(self, state_flag):
         self.state = state_flag
 
+    def set_Viewed(self):
+        self.state = 1
+
     def get_state(self):
         return self.state
 

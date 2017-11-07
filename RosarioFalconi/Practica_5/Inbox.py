@@ -24,12 +24,18 @@ class Inbox:
         return len(unread)
 
     def get_message (self, index):
-        print("index ", index)
         aux_msg = self.get_sms()
-        msge = aux_msg.pop(index)
-        print("MESSAGE:",msge.get_message())
-        print("FROM:", msge.get_number())
-        print("TIME:", msge.get_time())
+        if len(aux_msg) > 0:
+            print(len(aux_msg))
+            msge = self.msg.pop(index)
+            print('MESSAGE:', msge.get_message())
+            print("FROM:", msge.get_number())
+            print("TIME:", msge.get_time())
+            msge.set_Viewed()
+            self.msg.insert(index,msge)
+            print(len(self.msg))
+        else:
+            print ("There is not message on that position")
 
     def set_State(self, index):
         self.msg[index][3]=1

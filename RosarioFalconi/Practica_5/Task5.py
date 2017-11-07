@@ -7,7 +7,7 @@ while not nr_opcion.isnumeric():
     if nr_opcion.isnumeric():
         break
     print("===========================================")
-    nr_opcion = input("Menu\n 1.Ingresar mensaje\n 2.Ver mensaje \n 3. Borrar mensaje \n 4.Total mensajes \n 5.Nro mensajes no leidos\nOpcion:")
+    nr_opcion = input("Menu\n 1. Ingresar mensaje\n 2. Ver mensaje \n 3. Borrar mensaje \n 4.Total mensajes \n 5.Nro mensajes no leidos\nOpcion:")
 
 opcion=int(nr_opcion)
 while opcion > 0 :
