@@ -5,6 +5,16 @@ class SMS_message:
         self.time_arrived = time_arrived
         self.text_of_SMS = text_of_SMS
 
+    def print_SMS(self):
+        if (self.has_been_viewerd == False):
+            value_abc="Non"
+        else:
+            value_abc ="yes"
+        return 'From Number:  {} ; Time_arrived:  {} ; Text of SMS:  {} ; SMS has been viewerd:  {}'.format(self.from_number ,
+                                                                         self.time_arrived,
+                                                                         self.text_of_SMS,value_abc )
+
+
     def get_has_been_viewerd(self):
         return self.has_been_viewerd
 

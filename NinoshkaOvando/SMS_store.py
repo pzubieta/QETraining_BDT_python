@@ -5,6 +5,10 @@ class SMS_store:
         self.my_inbox = []
         self.count_sms=0
 
+    def print_list_sms(self):
+        for val in self.my_inbox:
+            print(val.print_SMS())
+
     def add_message(self,from_number, time_arrived, text_of_SMS):
         has_been_viewerd= False
         message= SMS_message(has_been_viewerd, from_number, time_arrived, text_of_SMS)
@@ -65,7 +69,5 @@ class SMS_store:
             return None
 
 
-        self.count_sms =0
-        self.my_inbox.clear()
-        return "All SMS were deleted"
+
 
