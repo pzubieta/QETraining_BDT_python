@@ -10,7 +10,8 @@ class Employee(Person):
 
     def get_employee(self):
         employee = (Person.get_person(self))
-        return employee.extend([self.employee_id, self.department])
+        employee.extend([self.employee_id, self.department])
+        return employee
 
 
 ####################  TEST    ####################
