@@ -5,5 +5,7 @@ def days_in_month():
     for i in range(12):
         if months[i] == option:
             print(months[i], " has ", days[i], "days")
+            break
     else: print("None")
 days_in_month()
+
