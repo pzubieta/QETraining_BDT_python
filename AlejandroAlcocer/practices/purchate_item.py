@@ -1,16 +1,8 @@
 import AlejandroAlcocer.practices.catalog as catalog
-import logging
-
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
-handler = logging.FileHandler("Test_Log.log")
-formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-handler.setFormatter(formatter)
-logger.addHandler(handler)
+from AlejandroAlcocer.practices.logger import *
 
 
-
-class Purchate_Item():
+class PurchaseItem():
 
 
     def __init__(self):
@@ -32,6 +24,7 @@ class Purchate_Item():
 
 
     def ask_for_items(self):
+
         more_items = True
         while more_items == True:
             self.print_catalog()
@@ -50,6 +43,7 @@ class Purchate_Item():
 
 
     def ask_more_items(self):
+
         ask_for_more_items = input("would you like to add more items to your cart (y/n): ").lower().strip()
         more_items = True
         if ask_for_more_items == "y":
@@ -68,7 +62,7 @@ class Purchate_Item():
 
 
 def flow():
-    p = Purchate_Item()
+    p = PurchaseItem()
     p.ask_for_items()
     print(p.get_cart())
 
