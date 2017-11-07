@@ -1,5 +1,5 @@
-#import PZPrint_Age_mins
-#import PZPrint_4_ages
+import PZPrint_Age_mins
+import PZPrint_4_ages
 
 def fillUsers():
     usersAmount = eval(input("Enter the amount of users:"))

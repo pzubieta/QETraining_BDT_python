@@ -20,4 +20,4 @@ x = Person("Marge", "Simpson")
 y = Employee("Homer", "Simpson","1007")
 
 print(x.Name())
-print(y.Get)
+print(y.GetEmployee())
