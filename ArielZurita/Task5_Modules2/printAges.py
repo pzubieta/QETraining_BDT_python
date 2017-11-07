@@ -1,12 +1,7 @@
-from Task5_Modules import calculateAge
-def printAges():
-    age = int(input("Enter your age \n"))
-    ages = calculateAge.calculateAge(age)
-    if ages[0] < 12: print("You are a child")
-    elif ages[0] in (13, 17): print("Your are teenager")
-    elif ages[0] in (18, 29): print("Your are young")
-    elif ages[0] > 30: print("Your are adult")
-    else: print("Invalid value entered")
-
-
-printAges()
+from ArielZurita.Task5_Modules import calculateAge
+def printAges(age):
+    if age < 12: return "You are a child"
+    elif age >= 13 and age <= 17: return "Your are teenager"
+    elif age >= 18 and age <= 29: return "You are a young"
+    elif age > 30: return "Your are adult"
+    else: return "Invalid value entered"
