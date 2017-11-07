@@ -20,7 +20,6 @@ class Pickup_items:
 #          if(self.list_item_a[count_a].get_id_item() == id):
 #               return  self.list_item_a[count_a]
         for value in self.list_item_a:
-            print("GET  item::::::::::::ID:::::::::", value.get_id_item())
             if(value.get_id_item()== id):
                 string_value=value.print_item()
                 self.logger.debug("return value: {} ".format(string_value) )
@@ -31,6 +30,21 @@ class Pickup_items:
             #count_a += 1
         return value
 
+    def set_quantity_item(self, id, quantity):
+        self.logger.info('set_quantity_item Action')
+        result_action_void = False
+        for value in self.list_item_a:
+            if (value.get_id_item() == id):
+                string_value = value.print_item()
+                self.logger.debug("Set quantity item value: {} ".format(string_value))
+                value.set_quantity(quantity)
+                result_action_void = True
+
+
+        if (result_action_void == False):
+            self.logger.debug("Return set_quantity_item Action is false ")
+
+        return result_action_void
 
     def calculate_total(quantity, price):
         total = quantity * price
