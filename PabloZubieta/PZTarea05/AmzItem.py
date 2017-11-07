@@ -1,3 +1,4 @@
+import itertools
 import logging
 
 logging.basicConfig(filename='example.log', level=logging.INFO)
@@ -18,6 +19,10 @@ class AmzItem:
     def __getattribute__(self, attr):
         return object.__getattribute__(self, attr)
 
+    def __iter__(self):
+        self.id, cpy = itertools.tee(self.id)
+        return cpy
+
     def sellItem(self, intAmount):
         self.amount = self.amount - intAmount
         logging.info('Selling ITEM')  # Logging the sell of items
@@ -31,7 +36,6 @@ class AmzItem:
     def setAmount(self, intAmount):
         logging.info('ITEM ammount updated.')  # Logging the sell of items
         self.amount = intAmount
-
 
     def setName(self, strName):
         self.name = strName
@@ -47,3 +51,6 @@ class AmzItem:
 
     def getPrice(self):
         return self.price
+
+    def getId(self):
+        return self.id

@@ -10,6 +10,8 @@ class AmzStore:
         self.amzItemsList = []
         self.strName = strName
 
+    def __getitem__(self, index):
+        return self.amzItemsList[index].getId()
 
     def append(self, intId, strName, fltPrice, intAmount):
         newItem = AmzItem(intId, strName, fltPrice, intAmount)
@@ -22,9 +24,13 @@ class AmzStore:
         logging.info('I told you so')  # will not print anything
 
     def sell_item(self, intId, intAmount):
-        print("////////////",self.amzItemsList[int(intId)],"/////////////")
-        self.amzItemsList[int(intId)].setAmount(self.amzItemsList[intId].getAmount() - intAmount)
+        reqItem = self.search_item(intId)
+        print("////////////",reqItem,"/////////////")
+        self.amzItemsList[reqItem].setAmount(self.amzItemsList[reqItem].getAmount() - intAmount)
         logging.info("The item with ID= %s has been selled." % (self.id))    # Logging the sell
+
+    def search_item(self, intId):
+        return [item for item in self.amzItemsList if item == intId]
 
     def items_list(self):
         return self.amzItemsList
