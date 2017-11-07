@@ -1,5 +1,5 @@
 import time
-from SMS_store import SmsStore
+from task_06.sms_practice.SMS_store import SmsStore
 
 my_inbox = SmsStore()
 

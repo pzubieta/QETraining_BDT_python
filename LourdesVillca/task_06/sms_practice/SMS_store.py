@@ -1,4 +1,4 @@
-from message import Message
+from task_06.sms_practice.message import Message
 
 
 class SmsStore:
