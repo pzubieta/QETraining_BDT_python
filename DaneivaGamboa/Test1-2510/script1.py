@@ -16,3 +16,5 @@ exponent=numeroMenor**numeroMenor
 print("Resultado es", exponent)
 floatdiv=numeroMedio//numeroExtra
 print("Resultado de la division de",numeroMedio,"entre",numeroExtra,"es",floatdiv)
+
+
