@@ -34,6 +34,10 @@ class AmzItem:
         self.id = intId
 
     def setAmount(self, intAmount):
+        """
+
+        :rtype:
+        """
         logging.info('ITEM ammount updated.')  # Logging the sell of items
         self.amount = intAmount
 

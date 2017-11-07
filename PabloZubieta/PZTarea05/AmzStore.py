@@ -26,11 +26,17 @@ class AmzStore:
     def sell_item(self, intId, intAmount):
         reqItem = self.search_item(intId)
         print("////////////",reqItem,"/////////////")
-        self.amzItemsList[reqItem].setAmount(self.amzItemsList[reqItem].getAmount() - intAmount)
-        logging.info("The item with ID= %s has been selled." % (self.id))    # Logging the sell
+        reqItem.setAmount(reqItem.getAmount() - intAmount)
+        print("////////////", reqItem, "/////////////")
+        logging.info("The item with ID= %s has been selled." % (reqItem.id))    # Logging the sell
 
     def search_item(self, intId):
-        return [item for item in self.amzItemsList if item == intId]
+        #return [item for item in self.amzItemsList if item == intId]
+        res = None
+        for reqItem in self.amzItemsList:
+           if reqItem.getId() == intId:
+               res = reqItem
+        return res
 
     def items_list(self):
         return self.amzItemsList
@@ -46,4 +52,10 @@ print ("ITEM: ", my_store.items_list()[0])
 for single_item in my_store.items_list():
     print (single_item,"\n" )
 
-my_store.sell_item(2, 1)
+my_store.sell_item(2, 1) #Vende un producto
+
+print ("\n")
+print ("ITEM: ", my_store.items_list()[0])
+for single_item in my_store.items_list():
+    print (single_item,"\n" )
+

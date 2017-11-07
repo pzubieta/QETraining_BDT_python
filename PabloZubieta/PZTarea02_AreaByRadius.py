@@ -24,35 +24,23 @@ def sum_to (n):
 area_of_circle([15,3,7,12,17])
 sum_to (14)
 
-#------------------------------------------------------------------------------
+#-----------------------------VErify if odd or even-------------------------------------------
 def evenOddCheck(numList):
     """Check is the given number is odd or even"""
     for i in numList:
         if i % 2 == 0 : print("the number is EVEN.")
         else : print("the number is ODD.")
 
+#-----------------------Prime numbers from a range--------------------------------
+def primesFromRange(rangeNum):
+    for i in range(2, 8):
+        rangeNum = list(filter(lambda x: x == i or x % i, rangeNum))
 
-def primesFrom(rangeNum):
+    print("The prime numbers in the given range are: ",rangeNum)
 
-
-    last_prime_number = 1
-
-    for i in rangeNum:
-        count = i
-        while count > 1:
-
-            if rangeNum > 35:
-                print("the number is greater than 35: ", rangeNum)
-                break
-            if (count % i) == 0:
-
-                count = count - 1
-
-                if numbers[count]:
-                 last_prime_number = count
-                 break
-                 count += 1
-                 i = last_prime_number
+init = int(input ("Enter initial int for Range: "))
+final = int(input ("Enter final int for Range: "))
+primesFromRange(range(init, final))
 
 #------------------------------------------------------------------------------
 
@@ -68,6 +56,5 @@ def daysInMonth(monthReq):
         print("invalid parameter")
 numb = [9, 1, 3, 2]
 evenOddCheck(numb)
-primesFrom(35)
 
 daysInMonth("February")
