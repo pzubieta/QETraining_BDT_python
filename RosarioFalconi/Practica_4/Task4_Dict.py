@@ -1,4 +1,4 @@
-import Task4 as t4
+import RosarioFalconi.Practica_4.Task4 as t4
 
 nro_personas = 0
 str_nro = input("Ingresa numero de personas:")
