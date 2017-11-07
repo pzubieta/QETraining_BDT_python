@@ -6,7 +6,6 @@ class Pickup_items:
         self.list_item_a = {Item_store(1, "item 1",0.5, 10),Item_store(2, "item 2", 0.8, 5),Item_store(3, "item 3", 0.9, 3), Item_store(4, "item 4", 1, 2) }
         self.create_logger()
 
-
     def print_balance(self):
         self.logger.info('print_balance Action')
         for value in self.list_item_a:

@@ -11,6 +11,7 @@ class Item_store:
     def get_unit_price(self):
         self.logger.info('get_unit_price action')
         return self.unit_price
+
     def set_unit_price(self,unit_price):
         self.logger.info('set_unit_price action')
         self.unit_price = unit_price

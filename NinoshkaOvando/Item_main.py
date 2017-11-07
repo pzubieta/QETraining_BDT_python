@@ -4,7 +4,6 @@ def main():
     pickup_items = Pickup_items()
     aux_item_buy_list = []
 
-
     #id_item, name_item, unit_price, quantity
 
     continue_order=True
@@ -13,7 +12,6 @@ def main():
         pickup_items.print_balance()
         input_item_id = int(input("Enter Item Id that you want to buy: "))
         value_item_selected = pickup_items.get_item(input_item_id)
-
 
         if(value_item_selected!=None):
             input_item_quantity = int(input("Enter quantity that you want to buy: "))
