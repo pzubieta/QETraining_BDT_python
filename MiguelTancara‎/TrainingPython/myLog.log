@@ -1,0 +1,22 @@
+INFO:root:Program started
+INFO:root:initializing parameters
+INFO:root:initializing parameters
+INFO:root:returning the employee
+INFO:root:returning the name
+INFO:root:returning the name
+INFO:root:returning the name
+INFO:root:Program started
+INFO:root:initializing parameters
+DEBUG:root:initializing firstname variable with value : Marge
+DEBUG:root:initializing lastname variable with value: Simpsons
+INFO:root:initializing parameters
+DEBUG:root:initializing firstname variable with value : Homer
+DEBUG:root:initializing lastname variable with value: Simpsons
+INFO:root:returning the employee
+INFO:root:returning the name
+DEBUG:root:returning the name: Marge Simpsons
+INFO:root:returning the name
+DEBUG:root:returning the name: Homer Simpsons
+DEBUG:root:returning the employee: Homer Simpsons 1007
+INFO:root:returning the name
+DEBUG:root:returning the name: Homer Simpsons
