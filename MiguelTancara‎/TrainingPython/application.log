@@ -1,0 +1,28 @@
+INFO:root:Program started
+INFO:root:Initializing varaibles
+INFO:root:getting hte number of users
+INFO:root:getting the type of user sales or factory
+INFO:root:getting the name of the employee
+INFO:root:getting the lastname of the employee
+INFO:root:getting the number of pieces for the sales employee
+INFO:root:Adding the employee to the list
+INFO:root:calculating total salary
+INFO:root:calculating discount
+INFO:root:calculating net salary
+INFO:root:getting the type of user sales or factory
+INFO:root:getting the name of the employee
+INFO:root:getting the lastname of the employee
+INFO:root:getting the number of produced pieces for the factory employee
+INFO:root:getting the number of defective pieces for the factory employee
+INFO:root:Adding the employee to the list
+INFO:root:calculating total salary
+INFO:root:calculating discount salary
+INFO:root:calculating net salary
+INFO:root:getting the type of user sales or factory
+INFO:root:getting the name of the employee
+INFO:root:getting the lastname of the employee
+INFO:root:getting the number of pieces for the sales employee
+INFO:root:Adding the employee to the list
+INFO:root:calculating total salary
+INFO:root:calculating discount
+INFO:root:calculating net salary
