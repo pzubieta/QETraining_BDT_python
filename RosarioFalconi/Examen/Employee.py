@@ -1,5 +1,5 @@
-from Examen.Person import Person
-from Examen.Module import *
+from RosarioFalconi.Examen.Person import Person
+from RosarioFalconi.Examen.Module import *
 
 
 class Employee(Person):

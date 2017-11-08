@@ -1,5 +1,5 @@
 import logging
-from Examen.Employee import Employee
+from RosarioFalconi.Examen.Employee import Employee
 
 list_employees=[]
 
@@ -44,7 +44,7 @@ def main_test():
     globalSalary = 0
     discount = 0
     netSalary = 0
-    logger.info('Name | Department | Global Salary | Total Discount | Net Salary')
+    print ('Name | Department | Global Salary | Total Discount | Net Salary')
 
     for i in range (len(list_employees)):
         aux_emps = list_employees
@@ -54,9 +54,9 @@ def main_test():
         globalSalary = aux_emp.getGlobal()
         discount = aux_emp.getDiscount()
         netSalary = globalSalary-discount
-        formatter = logging.Formatter('%name | %department | %globalSalary | %discount | %netSalary')
-        handler.setFormatter(formatter)
-        logger.addHandler(handler)
+        print (name,' | ', department, ' | ', globalSalary,' | ', discount,' | ', netSalary)
+        #handler.setFormatter(formatter)
+        #logger.addHandler(handler)
     logger.info('Finish updating records')
 
 main_test()
