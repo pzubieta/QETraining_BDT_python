@@ -14,7 +14,7 @@ class Employee(Person):
         return self.employee_departament
 
     def get_global_salary(self):
-        return self.salary
+        return self.total_salary
 
     def get_effective_pieces(self):
         return self.effective_pieces

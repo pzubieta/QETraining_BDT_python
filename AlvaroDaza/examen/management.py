@@ -28,12 +28,13 @@ for index in range(employees_number):
 def print_all_employees(total_employees):
     for employee_in_list in total_employees:
         logger.info('calculating the salary')
-        calculate_salary.calculate_total_salary(employee_in_list)
-        total = employee.get_global_salary() - calculate_salary.calculate_descount(employee.get_global_salary())
+        employee_calculated = calculate_salary.calculate_total_salary(employee_in_list)
+        total = employee_calculated.get_global_salary() - calculate_salary.calculate_descount(
+            employee_calculated.get_global_salary())
         print (
-            str(employee_in_list.get_name()) + '    ' + str(employee_in_list.get_departament()) + '   ' + str(
-                employee_in_list.get_global_salary()) + '    ' + str(
-                calculate_salary.calculate_descount(employee_in_list.get_global_salary())) + '    ' + str(total))
+            str(employee_calculated.get_name()) + '    ' + str(employee_calculated.get_departament()) + '   ' + str(
+                employee_calculated.get_global_salary()) + '    ' + str(
+                calculate_salary.calculate_descount(employee_calculated.get_global_salary())) + '    ' + str(total))
 
 
 print_all_employees(total_employees)
