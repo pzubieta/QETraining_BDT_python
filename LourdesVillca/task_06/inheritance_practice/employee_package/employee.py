@@ -1,4 +1,4 @@
-from person_package.person import Person
+from task_06.inheritance_practice.person_package.person import Person
 
 
 class Employee(Person):
