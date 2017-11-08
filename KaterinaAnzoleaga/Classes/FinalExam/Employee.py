@@ -22,11 +22,11 @@ class Employee(Person):
             totalSalaryForSales(self.pieces_sold)
         elif self.department == 'Sales':
             self.global_salary = totalSalaryForSales(self.pieces_sold)
-            print (totalSalaryForSales(self.pieces_sold))
+
 
     def calcTotalDiscount (self):
         self.total_discount = discount(self.global_salary)
-        print (discount(self.global_salary))
+
 
     def calcNetSalary (self):
         self.net_salary = self.global_salary-self.total_discount
