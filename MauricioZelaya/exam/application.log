@@ -1,0 +1,26 @@
+11-07 19:59 root         INFO     Starting process............
+11-07 19:59 root         DEBUG    inserting 3 employees
+11-07 19:59 root         INFO     insert employee # 0
+11-07 19:59 root         DEBUG    employee: mau z - factory
+11-07 19:59 root         INFO     calculating total salary
+11-07 19:59 root         DEBUG    total salary for factory employee 38.7
+11-07 19:59 root         INFO     calculating discount
+11-07 19:59 root         DEBUG    discount 4.8375
+11-07 19:59 root         INFO     calculating net salary
+11-07 19:59 root         DEBUG    net salary 33.862500000000004
+11-07 19:59 root         INFO     insert employee # 1
+11-07 19:59 root         DEBUG    employee: daz z - sales
+11-07 19:59 root         INFO     calculating total salary
+11-07 20:00 root         DEBUG    total salary for sales employee 17.5
+11-07 20:00 root         INFO     calculating discount
+11-07 20:00 root         DEBUG    discount 2.1875
+11-07 20:00 root         INFO     calculating net salary
+11-07 20:00 root         DEBUG    net salary 15.3125
+11-07 20:00 root         INFO     insert employee # 2
+11-07 20:00 root         DEBUG    employee: nois f - sales6
+11-07 20:00 root         INFO     calculating total salary
+11-07 20:00 root         DEBUG    total salary for sales employee 15.0
+11-07 20:00 root         INFO     calculating discount
+11-07 20:00 root         DEBUG    discount 1.875
+11-07 20:00 root         INFO     calculating net salary
+11-07 20:00 root         DEBUG    net salary 13.125
