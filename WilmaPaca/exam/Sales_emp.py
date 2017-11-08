@@ -1,7 +1,7 @@
 from Employee import Employee
 from Person import Person
 
-class SalesEmployee(Employee):
+class SalesEmployee(Employee,Person):
 
     def __init__(self,name, last,department,n_piece ):
         Employee.__init__(self,name,last, department)
@@ -10,13 +10,14 @@ class SalesEmployee(Employee):
     def getPieceNumber(self):
         return self.n_pieces
 
-    def getNameEmpS(self, value):
-        return Person.getData
+    def getNameEmpS(self):
+        return Person.getData()
+
     def getDepartS(self):
-        return Employee.getDepartment
+        return self.getDepartment()
 
 
-class FactoryEmployee(Employee):
+class FactoryEmployee(Employee,Person):
     def __init__(self, name, last, department, effectivePiece, defect):
         Employee.__init__(self, name, last, department)
         self.effectivePieceF = effectivePiece
@@ -29,7 +30,7 @@ class FactoryEmployee(Employee):
         return Person.getData()
 
     def getDepartF(self):
-        return Employee.getDepartment()
+        return self.getDepartment()
 
     def getDefective(self):
         return self.defective
