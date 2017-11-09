@@ -1,0 +1,79 @@
+1. Researh:
+	- When and why BDD was defined?
+		According many sources of information, there is not a specific date of "when" was defined BDD.
+		But looks like it was defined at starting of 2000. It was defined by Dan North.
+		Why? It emerged due BDT started to have lacks on acceptance criteria and lacks on focus from involved people.
+
+	- The most important aspects of BDD.
+		Make sure to know:
+		* Define a unique technice and language
+		* Define where to start BDT in the product
+		* Define what test and what not to test
+		* Define how to understand why test fails
+		* Write user stories, scenarios with all people involved
+		* Automate the tests
+	
+	- Why is useful and when could be applied?
+		It is useful because allow to have all scope and scenarios defined before development and testing.
+		It could be applied when there is a complex project 
+		
+	- Which type of teams could implement BDD?
+		* Teams that work with Agile, teams based/composed by different areas
+
+
+
+2. Structure of a feature - Give an example
+	According some information on internet regading BDD, Features describe an functional area of the products.
+	Features should contain a few paragraphs of descriptive text about that area covered.
+	Features have a description, a background and a set of tags. 
+
+	e.g.:
+	Feature: feature name
+
+		Area: Area of the product
+		Description: Paragraphs and tags
+		Scenario #: scenario name
+			Given some condition
+				Then some result is expected.
+
+
+
+3. Structure of a user story - Give an example
+	On BDD the structure for a user story could be different according needs of project, it can use a different story format.
+	But the story should contain at least a title, narrative description based on roles an expected result.
+
+
+	e.g.:
+	Title story name
+ 
+		Narrative:
+		As a [role]
+		I want [feature]
+		So that [benefit]
+ 		Acceptance Criteria: presented as Scenarios (Similar than features)
+ 
+		Scenario #: Title
+		Scenario ##: Title
+		.
+		.
+
+
+
+4. Structure of a scenario - Give an example
+	For BDD the scenarios are a specific environments where product is being applied.
+	Scenarios interact only with a sort of contexts and conditions for expecting results.
+
+	e.g.:
+	Scenario #: scenario name
+	Given [context]
+	  And [some more context]...
+	When  [event]
+	Then  [outcome]
+	  And [another outcome]...
+
+
+
+5. Difference between BDD and BDT
+	TDD is a process for when write and run tests making possible to have a very high test-coverage of a product.
+	BDD is an idea about how software development should be managed by any people involved in the process using specialized tools.
+	Test-Driven Development gives you the "when". Behavior Driven-Development gives you the "how".
