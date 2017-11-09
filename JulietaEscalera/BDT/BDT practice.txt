@@ -1,0 +1,75 @@
+﻿BDT Practice 1
+===============
+1. When and why BDD was defined
+- In by Dan North
+- Because it is behavior oriented. They see the requiremients to improve communication between bussines, QA and developers for improve develop and test time.
+
+2. The most important aspects of BDD
+
+Structure: 
+ 
+- Feature:
+ 	 Name
+     Size [Optional]
+     Priority 
+
+ - User stories (clear lenguage)
+		- As a (who)
+		- In order to (when)
+		- I want to (why)
+ 
+ - Scenarios(Acceptance criteria) Structure:
+        - Given some initial context (the givens)
+        - When an event occurs
+        - Then ensure some outcomes
+
+	 - Evaluate behavior
+	 - Aceptance behavior
+
+	 
+3. Why is useful and when could be applied
+It is useful:
+	- Collaboration 
+	- Simple Specification -> Ubiquitous language
+	- Easy Feedback 
+	- Avoid rework in requirements definition
+	- Self documentation 
+	- Focus on Behavior 
+Could be applied:
+ - At the beginning to development process
+ 
+4. Which type of teams could implement BDD
+
+	business
+	development
+	testing
+	
+5. Structure of a feature – Give an example
+
+	- Name: Insert new box
+	- Priority:1
+
+6. Structure of a user story – Give an example
+		- As an inventory employee 
+		- In order to add new box item
+		- I want to store a new box with code,color,size,date,inventory price
+		
+7. Structure of a scenario – Give an example
+		- Given some initial context (the givens)
+		
+		Inventory employee permissions
+		Access to stored items
+		Insert box requirement
+		
+        - When an event occurs
+		A new box code is present
+		A new box color is present
+		A new size of box is present
+		A new material of box is present
+		
+        - Then ensure some outcomes
+		In data base should be inserted a new item with color,size,material,price, date
+		
+8. Differences between BDD and BDT
+BDD is performed when the development process is started with BDD pure planning
+BDT is performed when the program is completed or it was started without BDD pure planning, The BDT layer is implemented on top of customized framework so it’s about building up layer upon layer only.
