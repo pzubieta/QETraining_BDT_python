@@ -1,0 +1,36 @@
+- Research :
+a) When and why BDD was defined
+In 2009, BDD was defined, due to the need to solve the problems as where tests or development begins,what should I try and not, the scope, what the tests will be called and how to know if my test fails.
+b)The most important aspects of BDD
+User histories
+Evaluaye behavior
+Acceptance criteria  
+c)Why is useful and when could be applied.
+Communication between business team, development team and QA team for a common language and the all parts understand
+Business team, Development team and QA team can be write the scenarios, and for each scenarios they write the tests to
+satisfy the business team requirements.
+Self documentation, the test cases and scenarios become a documentation and can be  easily extracted and all teams understand   
+Agile is to have visibility into team process and each team are focus on behavior of the project
+d)Which type of teams could implement BDD
+Bussines, Development and QE
+
+- Structure of a feature – Give an example
+Name: translate words
+Size: 20
+Priority: Major
+
+
+- Structure of a user story – Give an example
+Tittle:Enter the text
+Narrative:
+As a customer, the customer click on the text box, so that the customer is able to write the text to traslate
+
+- Structure of a scenario – Give an example
+
+Given  a customer wants translate the text
+when enter the text on the text field
+then the translated text is displayed
+
+
+- Differences between BDD and BDT
+The difference between BDT and BDD is: BDT  is focus on write code and how  should be worked that code. BDD is  focus on Why should write that code and how should behave that code.
