@@ -68,4 +68,4 @@ def ask_for_employee_amount():
         return False
 
 
-print_examn_result()
+print_exam_result()
