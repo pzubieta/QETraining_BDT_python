@@ -1,0 +1,81 @@
+Research:
+	- When and why BDD was defined?
+		El artículo apareció por primera vez en la revista Better Software en marzo de 2006.
+		BDD es una evolución de TDD (Test Driven Development o Desarrollo Dirigido por Pruebas). 
+		De hecho, el concepto de BDD fue inicialmente introducido por Dan North como respuesta a los problemas que surgían al enseñar TDD.
+		TDD está basado en 2 prácticas: Escribir las pruebas primero, y Refactorizar después:
+		TDD: En primer lugar, se escribe una prueba y se verifica si las pruebas fallan. 
+		A continuación, se implementa el código que hace que la prueba pase satisfactoriamente y seguidamente se refactoriza el código escrito
+		En BDD también vamos a escribir las pruebas antes de escribir el código fuente, pero en lugar de pruebas unitarias, 
+		lo que haremos será escribir pruebas que verifiquen que el comportamiento del código es correcto desde el punto de vista de negocio. 
+		Tras escribir las pruebas escribimos el código fuente de la funcionalidad que haga que estas pruebas pasen correctamente. Después refactorizamos el código fuente.
+	- The most important aspects of BDD
+		Todo el trabajo de desarrollo puede atribuirse directamente a los objetivos comerciales.
+		El desarrollo de software cumple con la necesidad del usuario. Usuarios satisfechos = buen negocio.
+		Priorización eficiente: las funciones críticas para la empresa se entregan primero.
+		Todas las partes tienen una comprensión compartida del proyecto y pueden participar en la comunicación.
+		Un lenguaje compartido garantiza que todos (técnicos o no) tengan una completa visibilidad del progreso del proyecto.
+		El diseño de software resultante que coincide con las necesidades existentes y futuras de negocios.
+		Código de calidad mejorado que reduce los costos de mantenimiento y minimiza el riesgo del proyecto.
+	- why is useful and when could be applied
+		BDD debería usarse para verificar las partes más importantes de la aplicación usando pruebas end to end. 
+		Eso probablemente incluye comenzar la aplicación y probarla con Selenium o similar.
+		BDD también se debe usar para verificar el comportamiento deseado utilizando pruebas de integración.
+		Es importante destacar que la empresa debe ser capaz de comprender estas pruebas, por lo que puede reducir la incertidumbre y generar confianza en lo que está construyendo.
+		Una respuesta mejor sería: "En todos los lugares donde la empresa tiene motivos para tener opiniones sobre el comportamiento".
+		Esto significa que todas las partes de la pirámide de prueba ágil se pueden implementar usando Cucumber. Puede implementar pruebas de end to end, 
+		pruebas de integración y partes que podrían probarse mediante pruebas unitarias. 
+		La decisión de utilizar Cucumber o un marco de prueba de unidad depende de la cooperación con el negocio. 
+		Si tienen opiniones sobre el comportamiento, entonces usa Cucumber. Si son indiferentes, use un marco de prueba de unidad(framework).
+	- which type of teams could implement BDD
+		La interaccion de los teams deberia ser por todos, (QA, Developer, automation,  etc)
+
+Structure of a feature (give an example):
+	- Feature: en el contexto de BDD describe un área funcional de su producto. 
+	En BDD, un feature se escribe como un archivo de texto que forma parte del código fuente del proyecto y busca documentar la característica que está describiendo. 
+	Contiene algunos párrafos detallados de texto descriptivo sobre el área del producto que cubre su función, los features se componen de escenarios. 
+	Opcionalmente pueden tener una descripción, un background y un conjunto de tags. 
+	un feature se ve así:
+	@tags @tag
+	Feature: feature name
+		description
+		further description
+
+		Background: some requirement of this test
+			Given some setup condition
+			And some other setup action
+
+		Scenario: some scenario
+			Given some condition
+			When some action is taken
+			Then some result is expected.
+
+		Scenario: some other scenario
+			Given some other condition
+			When some action is taken
+			Then some other result is expected.
+		Scenario: ...
+
+Structure of a user story (give an example)
+	- user story: son descripciones cortas y simples de una característica contada desde la perspectiva de la persona que desea la nueva capacidad, 
+	generalmente un usuario o cliente del sistema. Por lo general, siguen una plantilla simple:
+	
+	As a < type of user >, I want < some goal > so that < some reason >.
+	
+	As a user, I can backup my entire hard drive.
+
+Structure of a scenario (give an example)
+	- scenario: Un scenario BDD es una descripción escrita del comportamiento del producto desde la perspectiva de uno o más usuarios. 
+	Los escenarios están diseñados para reducir el costo de la traducción y facilitar a los ingenieros comprendan los requisitos y del QA para probarlo correctamente.
+	
+	scenario 1: el usuario crea una cuenta de LinkedIn con éxito
+	GIVEN John está en la página de Registro de LinkedIn
+	WHEN ingresa todos los campos de registro requeridos
+	THEN se crea una cuenta de LinkedIn
+
+Differences between BDD and BDT
+	La elección entre TDD y BDD es complicada. Depende de si existe un marco de prueba adecuado para su idioma objetivo, con qué se sienten cómodos sus compañeros de trabajo y, 
+	a veces, otros factores.
+	Algunos argumentan que BDD siempre es mejor que TDD porque tiene la posibilidad de eliminar los problemas que puedan surgir al usar TDD.
+	La clave de BDD es que podría evitar problemas pero no está garantizado a cuestiones como la mala organización del código, malas prácticas de diseño, etc. 
+	esos problemas aún persistirán. Tendrá una probabilidad menor de escribir pruebas incorrectas y, por lo tanto, tendrá características más robustas.
