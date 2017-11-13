@@ -1,0 +1,16 @@
+###Adding .feature file with scenario.
+
+
+Feature: Add a new player to the game.
+  The player that I added should be display in the list players when a New play started.
+  
+      Scenario: to add a new player to start a new game
+     
+          Given I want to add a new player when I  started a new game
+          And the player should be visible in tjhe list players
+          When starting a new  game the new player  should be on the list.
+          And open the list players
+          But add a new player in the list players
+          Then the player is added in the list players
+          Then the game can be start with the new game.
+    
