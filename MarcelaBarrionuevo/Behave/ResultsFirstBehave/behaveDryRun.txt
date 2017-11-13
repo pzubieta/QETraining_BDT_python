@@ -1,0 +1,61 @@
+*Results fro dry run mode*
+C:\Users\Marcela Barrionuevo\Behave\Behave_examples\Behave\Test\features\steps>behave test.feature --dry-run
+Feature: First test # test.feature:1
+  this is my test about install behave
+  we need to learn more about to behave
+  to automated APi test cases
+  Scenario: Install behave                    # test.feature:6
+    Given I need install behave               # None
+    When I am in the class                    # None
+    And I am in the computer                  # None
+    And I have the installer                  # None
+    But I am tired                            # None
+    Then I did not completed the installation # None
+
+  Scenario: Review behave                 # test.feature:14
+    Given I need  behave installation     # None
+    When I am in the installation file    # None
+    Then I have reviewed the installation # None
+
+0 features passed, 0 failed, 0 skipped, 1 untested
+0 scenarios passed, 0 failed, 0 skipped, 2 untested
+0 steps passed, 0 failed, 0 skipped, 9 undefined
+Took 0m0.000s
+
+You can implement step definitions for undefined steps with these snippets:
+
+@given(u'I need install behave')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Given I need install behave')
+
+@when(u'I am in the class')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am in the class')
+
+@when(u'I am in the computer')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am in the computer')
+
+@when(u'I have the installer')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I have the installer')
+
+@when(u'I am tired')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am tired')
+
+@then(u'I did not completed the installation')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Then I did not completed the installation')
+
+@given(u'I need  behave installation')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Given I need  behave installation')
+
+@when(u'I am in the installation file')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am in the installation file')
+
+@then(u'I have reviewed the installation')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Then I have reviewed the installation')
