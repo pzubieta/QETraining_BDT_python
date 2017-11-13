@@ -1,0 +1,30 @@
+with behave coffe.feature --dry-run
+------------------------------------
+
+$ behave coffe.feature --dry-run
+Feature: Serve coffee # coffe.feature:4
+  Coffee should not be served until paid for
+  Coffee should not be served until the button has been pressed
+  If there is no coffee left then money should be refunded
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+without --dry-run
+----------------------------------------
+
+$ behave coffe.feature
+Feature: Serve coffee # coffe.feature:4
+  Coffee should not be served until paid for
+  Coffee should not be served until the button has been pressed
+  If there is no coffee left then money should be refunded
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+Difference between both executions
+----------------------------------------
+I can to see the difference, but the command dry-run allows you to test your command-line options.
+It can help you see which indices will be caught by operations without actually performing those operations.
