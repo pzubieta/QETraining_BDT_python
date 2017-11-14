@@ -1,0 +1,18 @@
+D:\MauricioZ\Documments\Courses\BDTCourse\QETraining_BDT_python\MauricioZelaya\behave\practice1\feature>behave search_customer.feature
+Feature: Search customer feature # search_customer.feature:1
+  © 2016 Mauricio Zelaya All Rights Reserved
+  imaginary Test
+  777 evergreeen Ave.
+  Scenario: first scenario  # search_customer.feature:6
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+D:\MauricioZ\Documments\Courses\BDTCourse\QETraining_BDT_python\MauricioZelaya\behave\practice1\feature>
+
+
+
+Which one is the difference between both executions?
+-I don't see any difference between the executions
