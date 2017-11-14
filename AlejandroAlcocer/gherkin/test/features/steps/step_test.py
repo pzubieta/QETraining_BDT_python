@@ -16,6 +16,3 @@ def step_impl(context, country):
 @given('I fill the number with thousands with {people:f}')
 def step_impl(context, people):
     print(people)
-
-
-#     And I fill the number with thousands with 1594

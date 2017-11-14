@@ -67,7 +67,7 @@ Feature: Testing search engine for google.com
       And A list of search that match
       And a 2xx response for the API
 
-  * Verify that is possible set the language
+  Scenario: Verify that is possible set the language
   * That I want to change the language of the app
   * I attempt to set the language
   * I get a success message
