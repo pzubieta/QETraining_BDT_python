@@ -1,0 +1,25 @@
+#1
+Scenario: Google home page is enable
+   Given I enter the google url in web browser
+   When entering the url's Google[www.google.com] at the Addres bar on the  web browser
+   Then  I can see that the web page loaded successfully and the Google image is visible
+
+#2 
+Scenario: to do a search using the 'search bar' of Google.
+    Given I want to do a search at the Google home page
+    When entering a word, for example: "car" into the search bar
+    Then a list links related to "car" are displayed on the results page
+
+#3
+Scenario: to do a search using the 'Image search' of Google  with an image instead of text.
+    Given I want to do a search using the 'Image search', I upload a car's image.
+    When clicking on the "Images" link at the top of Google page page
+    And I upload a image, for example related to a car.
+    Then images related to "car" are displayed on the results page.
+ 
+
+#4 Scenario: to do a search by image search Google using a link as reference.
+    Given I want to do a search by 'Image search', I paste image URL
+    When clicking on the "Images" link at the top of Google page page
+    But I paste a image url to start the search.
+    Then images related to a image of the URL are displayed on the results page.
