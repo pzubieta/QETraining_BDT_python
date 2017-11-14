@@ -1,6 +1,4 @@
 Feature: Google main page
-This is my test about google home page
-wth all main scenarios to google home page
   Scenario: Google search using  valid words
     Given a web browser is in Google home page
     When the user enters words to search into the search text field
@@ -132,8 +130,6 @@ wth all main scenarios to google home page
 	When the user cliks in 'About' on the footer page
 	Then user is redirected to 'About' page
 	
-
-
 
 
 
