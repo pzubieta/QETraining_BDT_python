@@ -54,7 +54,7 @@ msg1.add_message(False, 71720612, '12:30', 'friendly reminder')
 print("You have %s messages in your inbox" % msg1.count_messages())
 print("current unread messages:")
 for msg in msg1.count_unread():
-    print msg
+    print(msg)
     unread_counter += 1
 print("you currently have", unread_counter, "unread messages")
 print(msg1.get_message(1))
