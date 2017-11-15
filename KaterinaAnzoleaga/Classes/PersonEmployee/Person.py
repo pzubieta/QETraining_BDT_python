@@ -4,4 +4,6 @@ class Person:
         self.last = last
         self.age = age
         self.CI = CI
+    def Name ():
+        return
 
