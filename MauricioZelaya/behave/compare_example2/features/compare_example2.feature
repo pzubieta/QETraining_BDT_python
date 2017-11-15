@@ -1,11 +1,13 @@
-Feature:
-  Scenario:
+@try @mz
+Feature: Test
+  @tag_scenario
+  Scenario: my scenario #1
     Given I have $500 in my account
     When I choose withdraw the fixed amount of $50
     Then I should receive $50 cash
       And the balance of my account should be $450
 
-  Scenario:
+  Scenario: Test
     Given I have $500 in my account
     When I choose withdraw the fixed amount of $100
     Then I should receive $100 cash
