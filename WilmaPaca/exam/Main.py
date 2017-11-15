@@ -1,22 +1,28 @@
 from Sales_emp import SalesEmployee
 from Sales_emp import FactoryEmployee
-from exam import Employee
+from Employee import Employee
+from Person import Person
+
 import logging
 
-class MainFactory(SalesEmployee,FactoryEmployee):
+class MainFactory(SalesEmployee,FactoryEmployee,Employee,Person):
     global logger
+    global index
+
     logging.basicConfig(level=logging.DEBUG)
     logger = logging.getLogger(__name__)
 
-    handler = logging.FileHandler('Test_Log.log')
+    handler = logging.FileHandler('application.log')
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
     def __init__(self):
         self.emp = {}
-        self.index = 0
         self. discSales = 0.125
+        self.salary = {}
+        self.dataSalary = {}
+        self.index = 0
 
     def addEmployee(self,num):
             logger.info('Start adding employees....')
@@ -34,37 +40,56 @@ class MainFactory(SalesEmployee,FactoryEmployee):
                     f_add = FactoryEmployee(name, last, depart, piece,pieceDef)
                     self.emp[self.index]= f_add
                 self.index += 1
+            self.calSalary(self.emp)
 
-    def calSalary(self):
-        self.salary = {}
-        for key, value in self.emp.items():
-            if value.getDepartment() == "sales":
-                value = int(value.getPieceNumber())
-#                print (value)
-                salary_em = value * 2.5
-                disc = salary_em * self.discSales
-                self.salary[salary_em] = disc
-            elif value.getDepartment() == "fatory":
-                salary_em1 = (int(value.getEffectivePieceNumber()) * 10) - (value.getDefective()*1.3)
-                disc1 = salary_em1 * self. discSales
-                self.salary[salary_em1] = disc1
-            return self.salary
+    def calculateSalaryF(self,effec,defect):
+        a = int(effec)
+        b = (a*10)-(defect*1.3)
+        return b
+
+    def calculateSalaryS(self, numP):
+        return numP*2.5
+
+    def discountF(self,salaryF):
+        a = salaryF*self.discSales
+        return a
+
+    def calSalary(self,dictio):
+        self.index = 0
+        logger.debug('Start calculating salaries....')
+        while self.index < len(dictio.items()):
+            for key, value in dictio.items():
+                v = value.getDepartment()
+#                print (v,"++++++")
+                if v == "sales":
+                    salary_em = self.calculateSalaryS(value.getPieceNumber())
+                    self.salary[salary_em] = self.discountF(salary_em)
+                elif v == "fatory":
+                    salary_em1 = self.calculateSalaryF(int(value.getEffectivePieceNumber()),value.getDefective())
+                    self.salary[salary_em1] = self.discountF(salary_m1)
+            self.index += 1
+#        self.printSalaryDisc(self.salary)
+        return self.salary
 
     def printSalaryDisc(self):
-#        print (self.calSalary())
-        i = self.index
-        for key, value in self.calSalary().items():
-#            print (key)
-            netSalary = key - self.salary[key]
-            print ("Global Salary "," Total Discount", "Net Salary")
-            print (key,"          ", self.salary[key],"           ",netSalary)
-            i +=1
+        i = 0
+        for key, value in self.salary.items():
+             netSalary = key - self.salary[key]
+             self.dataSalary[i] =[key,self.salary[key],netSalary]
+             i+=1
+        return self.dataSalary
+#        print("---",self.dataSalary)
 
     def printSalary(self):
-        for key , value in self.emp.items():
-            print(key)
-            print(value.getPieceNumber())
-            print (value.getDepartment()," - ",value.getDepartment()," ")
+        i = 0
+        print("Name   ", "Department", "Global Salary ", " Total Discount", "Net Salary")
+        print("-----------------------------------------------------------------------------")
+        for key, value in self.emp.items():
+            value_s = self.dataSalary[i]
+#            print (self.dataSalary,"---+----")
+            print (value.getData()," | ",value.getDepartment()," | ",value_s[0]," | ",value_s[1]," | ",value_s[2])
+            i += 1
+
 
 
 number_employee = int(input("Enter employee's number to add: "))
@@ -75,5 +100,5 @@ else:
     print ("Value incorrect !!")
 
 newFactory.printSalaryDisc()
-#newFactory.printSalary()
+newFactory.printSalary()
 
