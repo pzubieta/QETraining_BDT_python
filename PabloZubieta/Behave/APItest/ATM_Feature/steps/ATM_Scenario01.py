@@ -15,5 +15,5 @@ def step_impl(context, cash):
 
 @then(u'the balance of my account should be ${remaining_cash}')
 def step_impl(context, remaining_cash):
-    remainig = context.balance - context.withdraw
-    expect(remainig) == int(remaining_cash)
+    remaining = context.balance - context.withdraw
+    expect(remaining) == int(remaining_cash)
