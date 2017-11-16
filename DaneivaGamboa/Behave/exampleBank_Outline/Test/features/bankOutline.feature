@@ -1,6 +1,7 @@
 Feature: Withdraw Fixed account
   The "Withdraw cash" menu constains several fixed amounts to speed up transactions for users.
 
+  @tag_scenario1
   Scenario Outline: Withdraw  fixed amount
     Given I have <Balance> in my account
     When  I choose to withdraw the fixed amount of <Withdrawal>
