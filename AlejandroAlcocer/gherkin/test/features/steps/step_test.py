@@ -1,9 +1,5 @@
 from behave import given, when, then
-
-
-@given('I have ${amount:d} in my account')
-def step_impl(context, amount):
-    print(str(amount))
+from compare import expect, to_equal
 
 @given('I fill the zip code field with {zip_code:d}')
 def step_impl(context, zip_code):
