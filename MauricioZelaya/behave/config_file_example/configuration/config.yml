@@ -1,0 +1,3 @@
+host: http://www.youtube.com
+method: GET
+code: 200
