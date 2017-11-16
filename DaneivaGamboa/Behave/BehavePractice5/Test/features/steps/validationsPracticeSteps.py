@@ -1,3 +1,5 @@
+from behave import given, then
+
 
 @given(u'I enter the first name: {fname:w}')
 def step_impl(context,fname):
@@ -14,8 +16,8 @@ def step_impl(context,user):
     assert True is True
     #raise NotImplementedError(u'STEP: Given I enter username: degamboa')
 
-@given(u'I enter pass: {pass:S}')
-def step_impl(context,pass):
+@given(u'I enter pass: {password:S}')
+def step_impl(context,password):
     assert True is True
     #raise NotImplementedError(u'STEP: Given I enter pass: pass123.')
 
@@ -34,7 +36,7 @@ def step_impl(context):
     assert True is True
     #raise NotImplementedError(u'STEP: Given I enter gender: female')
 
-@given(u'I enter email: {email:w}')
+@given(u'I enter email: {email}')
 def step_impl(context,email):
     assert True is True
     #raise NotImplementedError(u'STEP: Given I enter email: daneiva@gmail.com')

@@ -24,3 +24,4 @@ def step_impl(context,balance):
     remaining= context.amount-context.fixed_amount
     expect(remaining).to_equal(int(balance))
     ## raise NotImplementedError(u'STEP: Then the balance of my account should be $450')
+
