@@ -1,48 +1,43 @@
+@given(u'I want google execute some html tags')
+def step_impl(context):
+    pass
 
-@given(u'I want to fill the name {name:w}')
-def step_impl(context, name):
-    print(name)
+@when(u'I send the html code tags')
+def step_impl(context):
+    pass
 
-@given(u'I want to fill the last name {last_name_1:w} {last_name_2:w}')
-def step_impl(context, last_name_1, last_name_2):
-    print(last_name_1 + last_name_2)
+@then(u'The browser should not execute the code')
+def step_impl(context):
+    pass
 
-@given(u'I want to fill the username {username:w}')
-def step_impl(context, username):
-    print(username)
+@then(u'the response should be results with the code tag')
+def step_impl(context):
+    pass
 
-@given(u'I want to create a password {password:w}')
-def step_impl(context, password):
-    print(password)
+@then(u'a 2xx response for the API')
+def step_impl(context):
+    pass
 
-@given(u'I want to confirm my password {password:w}')
-def step_impl(context, password):
-    print(password)
+@given(u'A user name and a password')
+def step_impl(context):
+    pass
 
-@given(u'I want to set a month for my birthday {month:S}')
-def step_impl(context, month):
-    print(month)
+@given(u'invalid credentials')
+def step_impl(context):
+    pass
 
-@given(u'I want to set a day for my birthday {day:d}')
-def step_impl(context, day):
-    print(day)
+@when(u'I attempt to login with the credentials')
+def step_impl(context):
+    pass
 
-@given(u'I want to set a year for my birthday {year:d}')
-def step_impl(context, year):
-    print(year)
+@then(u'I get an exception')
+def step_impl(context):
+    pass
 
-@given(u'I want to select my gender {gender:S}')
-def step_impl(context, gender):
-    print(gender)
+@given(u'Valid user name and a password')
+def step_impl(context):
+    pass
 
-@given(u'I want to set my country {country:S}')
-def step_impl(context, country):
-    print(country)
-
-@given(u'I want to insert my phone number {phone:d}')
-def step_impl(context, phone):
-    print(phone)
-
-@given(u'I want to set my current email {email:w}')
-def step_impl(context, email):
-    print(email)
+@then(u'I get a success message')
+def step_impl(context):
+    pass
