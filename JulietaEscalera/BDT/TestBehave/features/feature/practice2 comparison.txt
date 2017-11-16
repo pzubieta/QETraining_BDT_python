@@ -1,0 +1,68 @@
+Run with --dry-run
+==================
+
+C:\BDT\Test\JulietaEscalera\Behave\features\feature>behave search_customer.feature --dry-run
+Exception UnicodeDecodeError: 'utf8' codec can't decode byte 0xa9 in position 40: invalid start byte
+Traceback (most recent call last):
+  File "c:\python27\lib\runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "c:\python27\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Python27\Scripts\behave.exe\__main__.py", line 9, in <module>
+  File "c:\python27\lib\site-packages\behave\__main__.py", line 109, in main
+    failed = runner.run()
+  File "c:\python27\lib\site-packages\behave\runner.py", line 672, in run
+    return self.run_with_paths()
+  File "c:\python27\lib\site-packages\behave\runner.py", line 687, in run_with_paths
+    features = parse_features(feature_locations, language=self.config.lang)
+  File "c:\python27\lib\site-packages\behave\runner_util.py", line 301, in parse_features
+    feature = parser.parse_file(filename, language=language)
+  File "c:\python27\lib\site-packages\behave\parser.py", line 15, in parse_file
+    data = f.read().decode('utf8')
+  File "c:\python27\lib\encodings\utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xa9 in position 40: invalid start byte
+
+
+Run without dry-run
+===================
+
+C:\BDT\Test\JulietaEscalera\Behave\features\feature>behave search_customer.feature
+Feature: Title # search_customer.feature:1
+  Description Copyright  2010 by Wily E. Coyote
+  All rights reserved. This book or any portion thereof
+  may not be reproduced or used in any manner whatsoever
+  without the express written permission of the publisher
+  except for the use of brief quotations in a book review.
+  Printed in the United States of America
+  First Printing, 2010
+  ISBN 0-9000000-0-0
+  Falling Anvil Publishing
+  123 Mesa Street
+  Scottsdale, AZ 00000
+  www.FallingAnvilBooks.com
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDT\Test\JulietaEscalera\Behave\features\feature>behave search_customer.feature --dry-run
+Feature: Title # search_customer.feature:1
+  Description Copyright  2010 by Wily E. Coyote
+  All rights reserved. This book or any portion thereof
+  may not be reproduced or used in any manner whatsoever
+  without the express written permission of the publisher
+  except for the use of brief quotations in a book review.
+  Printed in the United States of America
+  First Printing, 2010
+  ISBN 0-9000000-0-0
+  Falling Anvil Publishing
+  123 Mesa Street
+  Scottsdale, AZ 00000
+  www.FallingAnvilBooks.com
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+##The two files are identical
