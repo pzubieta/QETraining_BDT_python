@@ -1,0 +1,12 @@
+11-07 21:01 root         INFO     Starting with a sample
+11-07 21:01 root         INFO     Starting asking the number of employees
+11-07 21:01 root         INFO     A valid number of employees was entered :3
+11-07 21:01 root         DEBUG    Factory employee being entered. Getting efective and defective prices
+11-07 21:02 root         DEBUG    Calculating Global Salary, Discount and NetSalay based on the department of the employee
+11-07 21:02 root         DEBUG    Entering the full record to the list of employees: ('dfasd asdf', 'Factory', 9877.4, 1234.675, 8642.725)
+11-07 21:02 root         DEBUG    Sales employee being entered. Getting number of pieces sold
+11-07 21:02 root         DEBUG    Calculating Global Salary, Discount and NetSalay based on the department of the employee
+11-07 21:02 root         DEBUG    Entering the full record to the list of employees: ('sdf asdf', 'Sales', 13635.0, 1704.375, 11930.625)
+11-07 21:02 root         DEBUG    Factory employee being entered. Getting efective and defective prices
+11-07 21:02 root         DEBUG    Calculating Global Salary, Discount and NetSalay based on the department of the employee
+11-07 21:02 root         DEBUG    Entering the full record to the list of employees: ('sdfa asf', 'Factory', 5382.4, 672.8, 4709.599999999999)

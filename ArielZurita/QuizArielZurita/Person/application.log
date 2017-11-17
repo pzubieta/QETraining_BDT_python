@@ -1,0 +1,52 @@
+
+2017-11-08 00:45:22,469 - __main__ - INFO - Asking number employees
+2017-11-08 00:45:30,154 - __main__ - INFO - Asking if the value entered %d meets condition greter than 3 and lower than 15
+2017-11-08 00:45:30,154 - __main__ - DEBUG - creating employess
+2017-11-08 00:45:51,898 - __main__ - DEBUG - Create employee with type sales
+2017-11-08 00:45:57,745 - __main__ - DEBUG - Sales employee created
+2017-11-08 00:45:57,745 - __main__ - DEBUG - creating employess
+2017-11-08 00:46:11,888 - __main__ - DEBUG - Create employee with type sales
+2017-11-08 00:46:14,935 - __main__ - DEBUG - Sales employee created
+2017-11-08 00:46:14,935 - __main__ - DEBUG - creating employess
+2017-11-08 00:46:23,451 - __main__ - DEBUG - Create employee with type sales
+2017-11-08 00:46:24,513 - __main__ - DEBUG - Sales employee created
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating salary
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating discount
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating net salary
+2017-11-08 00:46:24,513 - __main__ - DEBUG - adding employee with all its salaries
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating salary
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating discount
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating net salary
+2017-11-08 00:46:24,513 - __main__ - DEBUG - adding employee with all its salaries
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating salary
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating discount
+2017-11-08 00:46:24,513 - __main__ - INFO - calculating net salary
+2017-11-08 00:46:24,513 - __main__ - DEBUG - adding employee with all its salaries
+2017-11-08 00:46:24,513 - __main__ - DEBUG - printing employees
+2017-11-08 00:46:24,513 - __main__ - DEBUG - printing employees
+2017-11-08 00:46:24,513 - __main__ - DEBUG - printing employees
+2017-11-08 00:46:24,513 - __main__ - DEBUG - printing employees
+2017-11-08 00:47:27,646 - __main__ - INFO - Asking number employees
+2017-11-08 00:47:31,717 - __main__ - INFO - Asking if the value entered %d meets condition greter than 3 and lower than 15
+2017-11-08 00:47:31,717 - __main__ - DEBUG - creating employess
+2017-11-08 00:47:42,794 - __main__ - DEBUG - Create employee with type sales
+2017-11-08 00:47:44,701 - __main__ - DEBUG - Sales employee created
+2017-11-08 00:47:44,701 - __main__ - DEBUG - creating employess
+2017-11-08 00:47:58,029 - __main__ - DEBUG - Create employee with type factory
+2017-11-08 00:48:01,716 - __main__ - DEBUG - Factory employee created
+2017-11-08 00:48:01,716 - __main__ - DEBUG - creating employess
+2017-11-08 00:48:14,177 - __main__ - DEBUG - Create employee with type sales
+2017-11-08 00:48:16,840 - __main__ - DEBUG - Sales employee created
+2017-11-08 00:48:16,840 - __main__ - INFO - calculating salary
+2017-11-08 00:48:16,840 - __main__ - INFO - calculating discount
+2017-11-08 00:48:16,840 - __main__ - INFO - calculating net salary
+2017-11-08 00:48:16,840 - __main__ - DEBUG - adding employee with all its salaries
+2017-11-08 00:48:16,840 - __main__ - INFO - calculating salary
+2017-11-08 00:48:16,840 - __main__ - INFO - calculating discount
+2017-11-08 00:48:16,840 - __main__ - INFO - calculating net salary
+2017-11-08 00:48:16,841 - __main__ - DEBUG - adding employee with all its salaries
+2017-11-08 00:48:16,841 - __main__ - DEBUG - adding employee with all its salaries
+2017-11-08 00:48:16,841 - __main__ - DEBUG - printing employees
+2017-11-08 00:48:16,841 - __main__ - DEBUG - printing employees
+2017-11-08 00:48:16,841 - __main__ - DEBUG - printing employees
+2017-11-08 00:48:16,841 - __main__ - DEBUG - printing employees

@@ -1,0 +1,4 @@
+2017-11-06 22:33:48,053 - __main__ - INFO - Start reading database
+2017-11-06 22:33:48,068 - __main__ - DEBUG - Records: {'john': 55, 'tom': 66}
+2017-11-06 22:33:48,068 - __main__ - INFO - Updating records ...
+2017-11-06 22:33:48,068 - __main__ - INFO - Finish updating records

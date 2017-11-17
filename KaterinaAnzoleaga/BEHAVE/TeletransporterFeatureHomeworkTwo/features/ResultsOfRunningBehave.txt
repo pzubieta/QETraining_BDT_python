@@ -1,0 +1,62 @@
+* Running Teletransporter.feature with '--dry-run' option when the three first lines does not contain # as commenting line
+
+C:\MyPythonProjects\KT Repository\QETraining_BDT_python\KaterinaAnzoleaga\BEHAVE
+\TeletransporterFeatureHomeworkTwo\features\steps>behave Teletransporter.feature
+ --dry-run
+ParseError: Failed to parse "C:\MyPythonProjects\KT Repository\QETraining_BDT_py
+thon\KaterinaAnzoleaga\BEHAVE\TeletransporterFeatureHomeworkTwo\features\steps\T
+eletransporter.feature":
+Parser failure in state init, at line 1: 'Copyright c 2017 by Katerina Anzolgeag
+a Murillo.'
+REASON: No feature found.
+
+
+* Running Teletransporter.feature WITHOUT '--dry-run' option when the three first lines does not contain # as commenting line
+
+
+C:\MyPythonProjects\KT Repository\QETraining_BDT_python\KaterinaAnzoleaga\BEHAVE
+\TeletransporterFeatureHomeworkTwo\features\steps>behave Teletransporter.feature
+
+ParseError: Failed to parse "C:\MyPythonProjects\KT Repository\QETraining_BDT_py
+thon\KaterinaAnzoleaga\BEHAVE\TeletransporterFeatureHomeworkTwo\features\steps\T
+eletransporter.feature":
+Parser failure in state init, at line 1: 'Copyright c 2017 by Katerina Anzolgeag
+a Murillo.'
+REASON: No feature found.
+
+
+-------------------------------------
+* No difference was found when running with and without '--dry-run- option because parcer error raised 
+
+
+
+
+
+* Running Teletransporter.feature with '--dry-run' option after commenting the three first lines (#)
+
+C:\MyPythonProjects\KT Repository\QETraining_BDT_python\KaterinaAnzoleaga\BEHAVE
+\TeletransporterFeatureHomeworkTwo\features\steps>behave Teletransporter.feature
+ --dry-run
+Feature: Teletransporter # Teletransporter.feature:4
+  This feature represents the main functionality of the machine and software dev
+eloped in order to allow human teletransportation form one point of the globe to
+ another.
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+* Running Teletransporter.feature WITHOUT '--dry-run' option after commenting the three first lines (#)
+C:\MyPythonProjects\KT Repository\QETraining_BDT_python\KaterinaAnzoleaga\BEHAVE
+\TeletransporterFeatureHomeworkTwo\features\steps>behave Teletransporter.feature
+
+Feature: Teletransporter # Teletransporter.feature:4
+  This feature represents the main functionality of the machine and software dev
+eloped in order to allow human teletransportation form one point of the globe to
+ another.
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+No difference either.

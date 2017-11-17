@@ -1,0 +1,74 @@
+2017-11-07 23:38:04,001 - AlejandroAlcocer.examn.Logger - DEBUG - insert_employee: name was inserted asdf
+2017-11-07 23:38:08,145 - AlejandroAlcocer.examn.Logger - DEBUG - insert_employee: last name was inserted fdsa
+2017-11-07 23:38:11,003 - AlejandroAlcocer.examn.Logger - DEBUG - insert_employee: department was inserted sales
+2017-11-07 23:38:14,295 - AlejandroAlcocer.examn.Logger - DEBUG - insert_employee: amount of pieces was inserted asdf
+2017-11-07 23:39:01,803 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:39:04,063 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted fda
+2017-11-07 23:39:07,603 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:39:09,762 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted asdf
+2017-11-07 23:48:37,735 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-07 23:48:39,191 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:48:40,929 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted asdf
+2017-11-07 23:48:43,157 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:48:45,223 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-07 23:48:45,224 - AlejandroAlcocer.examn.Logger - DEBUG - amount_of_employees: invalid amount of employees 3
+2017-11-07 23:49:57,804 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-07 23:49:59,059 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:49:59,781 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted asdf
+2017-11-07 23:50:01,679 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:50:02,763 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-07 23:50:02,764 - AlejandroAlcocer.examn.Logger - DEBUG - amount_of_employees: invalid amount of employees 3
+2017-11-07 23:51:07,397 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-07 23:51:08,461 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:51:09,142 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted asdf
+2017-11-07 23:51:10,780 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:51:12,581 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-07 23:51:25,653 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 4
+2017-11-07 23:51:27,078 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:51:27,711 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted asdf
+2017-11-07 23:51:29,261 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:51:46,636 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-07 23:55:34,299 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-07 23:55:51,937 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-07 23:55:53,549 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:55:55,093 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted fdsa
+2017-11-07 23:55:56,874 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:55:59,593 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-07 23:56:02,832 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted qwer
+2017-11-07 23:56:04,849 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted reqw
+2017-11-07 23:56:08,598 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted factory
+2017-11-07 23:56:10,397 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of produced pieces was inserted 12
+2017-11-07 23:56:11,861 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of defected pieces was inserted 2
+2017-11-07 23:56:11,862 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: salary was calculated [117.4, 14.675, 102.72500000000001]
+2017-11-07 23:56:22,466 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted jkl;
+2017-11-07 23:56:24,653 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted lkj
+2017-11-07 23:56:26,478 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:56:28,019 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 4
+2017-11-07 23:57:19,841 - AlejandroAlcocer.examn.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-07 23:57:21,277 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:57:22,483 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted fda
+2017-11-07 23:57:24,339 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:57:25,302 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-07 23:57:27,725 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted qwer
+2017-11-07 23:57:29,429 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted rewq
+2017-11-07 23:57:32,394 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:57:35,453 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 43
+2017-11-07 23:57:37,837 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-07 23:57:39,461 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: last name was inserted asdf
+2017-11-07 23:57:41,582 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: department was inserted sales
+2017-11-07 23:57:44,414 - AlejandroAlcocer.examn.Logger - INFO - insert_employee: amount of pieces was inserted 65
+2017-11-10 22:32:50,423 - AlejandroAlcocer.exam.Logger - INFO - amount_of_employees: valid amount of employees 3
+2017-11-10 22:32:52,877 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: name was inserted asdf
+2017-11-10 22:32:54,657 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: last name was inserted afdas
+2017-11-10 22:32:58,267 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: department was inserted sales
+2017-11-10 22:33:00,408 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-10 22:33:02,798 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: name was inserted qwer
+2017-11-10 22:33:03,954 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: last name was inserted qwer
+2017-11-10 22:33:06,329 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: department was inserted sales
+2017-11-10 22:33:07,657 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: amount of pieces was inserted 12
+2017-11-10 22:33:10,095 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: name was inserted fdsa
+2017-11-10 22:33:11,735 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: last name was inserted vczx
+2017-11-10 22:33:16,720 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: department was inserted factory
+2017-11-10 22:33:19,517 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: amount of produced pieces was inserted 21
+2017-11-10 22:33:21,063 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: amount of defected pieces was inserted 32
+2017-11-10 22:33:21,063 - AlejandroAlcocer.exam.Logger - INFO - insert_employee: salary was calculated [168.4, 21.05, 147.35]

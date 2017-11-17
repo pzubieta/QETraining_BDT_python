@@ -1,0 +1,34 @@
+2017-11-07 19:13:56,286 - exam.logs.employee_log - INFO: 13 - Number of employee to be registered is 2 
+2017-11-07 19:16:08,089 - exam.logs.employee_log - INFO: 13 - Number of employee to be registered is 2 
+2017-11-07 19:16:38,401 - exam.logs.employee_log - INFO: 32 - Print detail of employee to record
+2017-11-07 19:17:20,984 - exam.logs.employee_log - INFO: 13 - Number of employee to be registered is 2 
+2017-11-07 19:17:52,271 - exam.logs.employee_log - INFO: 32 - Print detail of employee to record
+2017-11-07 19:18:45,741 - exam.logs.employee_log - INFO: 13 - Number of employee to be registered is 2 
+2017-11-07 19:19:20,556 - exam.logs.employee_log - INFO: 32 - Print detail of employee to record
+2017-11-07 19:21:41,585 - exam.logs.employee_log - INFO: 13 - Number of employee to be registered is 1 
+2017-11-07 19:22:00,626 - exam.logs.employee_log - INFO: 32 - Print detail of employee to record
+2017-11-07 19:23:19,407 - exam.logs.employee_log - INFO: 13 - Number of employee to be registered is 1 
+2017-11-07 19:23:29,814 - exam.logs.employee_log - INFO: 32 - Print detail of employee to record
+2017-11-07 19:32:16,696 - exam.logs.employee_log - INFO: 40 - Number of employee to be registered is 1 
+2017-11-07 19:33:10,295 - exam.logs.employee_log - INFO: 40 - Number of employee to be registered is 1 
+2017-11-07 19:34:28,854 - exam.logs.employee_log - INFO: 40 - Number of employee to be registered is 1 
+2017-11-07 19:34:28,854 - exam.logs.employee_log - DEBUG: 48 - Employee Number is not into the range 3-15
+2017-11-07 19:35:06,269 - exam.logs.employee_log - INFO: 40 - Number of employee to be registered is 3 
+2017-11-07 19:35:06,269 - exam.logs.employee_log - DEBUG: 48 - Employee Number is not into the range 3-15
+2017-11-07 19:35:13,397 - exam.logs.employee_log - INFO: 40 - Number of employee to be registered is 4 
+2017-11-07 19:36:38,779 - exam.logs.employee_log - INFO: 29 - Print detail of employee to record
+2017-11-07 19:44:16,698 - exam.logs.employee_log - INFO: 49 - Number of employee to be registered is 1 
+2017-11-07 19:44:24,297 - exam.logs.employee_log - DEBUG: 15 - Inserted Employee type is: Sales
+2017-11-07 19:44:24,298 - exam.logs.employee_log - INFO: 17 - Calculating the total Salary for: 'Sales' Employee type
+2017-11-07 19:44:38,185 - exam.logs.employee_log - DEBUG: 20 - Total Salary: '6250.0'
+2017-11-07 19:44:38,185 - exam.logs.employee_log - DEBUG: 30 - Total discount: 781.25
+2017-11-07 19:44:38,186 - exam.logs.employee_log - DEBUG: 32 - Net Salary: 5468.75
+2017-11-07 19:45:16,920 - exam.logs.employee_log - DEBUG: 15 - Inserted Employee type is: Factory
+2017-11-07 19:45:16,921 - exam.logs.employee_log - INFO: 22 - Calculating the total Salary for: 'Factory' Employee type
+2017-11-07 19:46:30,543 - exam.logs.employee_log - INFO: 55 - Number of employee to be registered is 1 
+2017-11-07 19:46:37,983 - exam.logs.employee_log - DEBUG: 15 - Inserted Employee type is: Sales
+2017-11-07 19:46:37,983 - exam.logs.employee_log - INFO: 17 - Calculating the total Salary for: 'Sales' Employee type
+2017-11-07 19:46:41,527 - exam.logs.employee_log - DEBUG: 22 - Total Salary: '11415.0'
+2017-11-07 19:46:41,527 - exam.logs.employee_log - DEBUG: 34 - Total discount: 1426.875
+2017-11-07 19:46:41,527 - exam.logs.employee_log - DEBUG: 37 - Net Salary: 9988.125
+2017-11-07 19:46:41,527 - exam.logs.employee_log - INFO: 43 - Print detail of calculated payroll

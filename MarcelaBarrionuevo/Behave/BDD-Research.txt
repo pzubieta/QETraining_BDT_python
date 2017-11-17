@@ -1,0 +1,95 @@
+When and why BDD was defined ?
+
+	BDD is a software development process that emerged from test-driven development (TDD) and  acceptance test driven development (ATDD) this combines the general techniques and principles of TDD (codging, testing and desing) also combines ATDD for automated acceptance tests.
+	This software development process emerged to have all team collaboration, no only have working to developers or QEs, also BDD has simple especification, we can have easy feedback, Avoid rework in requirements definition, Self documentation  and Focus on Behavior.
+	BDD is a rethinking of the approach to the unit testing and acceptance testing that naturally arise with these issues.
+
+BDD focuses on:
+
+    - Where to start in the process
+    - What to test and what not to test
+    - How much to test in one go
+    - What to call the tests
+    - How to understand why a test fails
+
+
+ 
+ The most important aspects of BDD:
+	 
+	BDD uses a simple structure to document examples of how a software app should behave. This structure uses 3 keywords, Given, When, and Then, to identify the 3 parts of a scenario:
+	Given some context, When some event or action happens, Then some outcome should be true as a response.
+	This simple set of words, Given, When, Then, forces a consistent focus on the app’s behaviour. They allow conversations to happen for each scenario that everyone can understand, whether they’re on the business or technical side of the project.
+
+Why is useful and when could be applied?
+
+BDD is usiful why: 
+	- Collaboration:between Business stakeholders, Business Analysts, QA Team and developers. 
+	- BDD has Simple Specification: borrows the concept of the ubiquitous language from domain driven design. A ubiquitous language is a (semi-)formal language that is shared by all members of a software development team — both software developers and non-technical personnel.
+	- Easy Feedback: becasue all team collaborate in the process so, the feddback can be more easy for the team. 
+	- Avoid rework in requirements definition: becasue when we build our examples together, we all understand the features in the same way
+	- Better communication between business and development
+	- Business people get more involved in product development.
+	- Self documentation: as developers write code for different scenarios, the code is already documented
+	- Code that is easier to maintain as code is always documented, it is easier to make changes and verify that it is still running correctly after every change.
+	- Better code: with documentation and with the code easy to maintain, making changes to it should be simpler
+	- Focus on Behavior : during development makes the test useful as verification that you’re building the right feature, not just that your code is correct
+
+When could be applied BDD
+	BDD could be applied for any project where we can have all team collaboration and all team  work only one single source of truth (BDD test), it minimizes the handshakes and reduces waste. Also it is well understood by everyone as test-scenario.
+ 
+Which type of teams could implement BDD
+	It depends on the team's knowledge, the company culture, and the team's openness to change. However, also keep in mind that you can always apply certain BDD practices to improve your quality of work.
+  
+Structure of a feature – Give an example
+
+	Feature: Feature name is just a reminder to what need to be refined
+
+	Example:  
+	- Name: User
+	- Priority : 1
+
+
+Structure of a user story – Give an example
+
+	Description of a requirement and its business benefit, and a set of criteria by which we all agree that it is “done”
+	A BDD story can just as easily describe a non-functional requirement, as long as the work can be scoped, estimated and agreed on
+	
+	Example:  
+	- Title: User credentilas are wrong
+	- Narrative:
+			As a customer
+			I want to login in the portal with wring credentials
+			so that is not possible becasue an error is generated
+			
+Structure of a scenario – Give an example
+	Scenarios are the core of Cucumber. In a “3 Amigos” style of meeting the product owner (and/or business analyst), developer and tester brain storm the names of the scenarios. 
+	It is important to have all three perspectives to guarantee a full range of scenarios, both happy and unhappy paths
+	
+	Example:  
+	Feature: User credentilas are wrong
+		
+			As a customer
+			I want to login in the portal with wring credentials
+			so that is not possible becasue an error is generated
+	Scenario: Invalid username and valid password
+	Scenario: valid username and invalid password
+	Scenario: empty username and valid password
+	Scenario: valid username and empty password
+	Scenario: empty username and empty password
+	
+
+Differences between BDD and BDT
+	BDD begins with the business goal. The goal of BDT is a business readable and domain specific language that allows you to describe a behavior of a system without putting details on how that behavior is developed.
+	In BDT, Tests in the form of simple text features/descriptions with scenarios are typically written before anything else and checked by the non-technical shareholders.
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+

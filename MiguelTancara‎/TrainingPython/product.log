@@ -1,0 +1,35 @@
+INFO:root:Program started
+INFO:root:initializing parameters
+INFO:root:Adding a new item
+INFO:root:Adding a new item
+INFO:root:Updating an existent item
+INFO:root:Adding a new item
+INFO:root:Adding a new item
+INFO:root:returning the price
+INFO:root:returning the price
+INFO:root:returning the amount
+INFO:root:returning the amount
+INFO:root:Starting the shopping
+INFO:root:adding the itme to the list of things to buy
+INFO:root:returning the price
+INFO:root:returning the amount
+INFO:root:checking if theitme exists
+INFO:root:adding the numebr of itmes to buy 
+INFO:root:Adding the new item to the  the list of itmes to buy
+INFO:root:adding the itme to the list of things to buy
+INFO:root:returning the price
+INFO:root:returning the amount
+INFO:root:checking if theitme exists
+INFO:root:adding the numebr of itmes to buy 
+INFO:root:Adding the new item to the  the list of itmes to buy
+INFO:root:adding the itme to the list of things to buy
+INFO:root:returning the price
+INFO:root:returning the amount
+INFO:root:checking if theitme exists
+INFO:root:adding the numebr of itmes to buy 
+INFO:root:updating the list of itmes to buy
+INFO:root:Shopping is end 
+INFO:root:updating the list of items
+INFO:root:updating the list of items
+INFO:root:Printing the list of items bought
+INFO:root:Printing the list of items bought

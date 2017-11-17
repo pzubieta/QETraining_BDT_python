@@ -1,0 +1,70 @@
+C:\Users\Marcela Barrionuevo\Behave\Behave_examples\Behave\Test\features\steps>behave test.feature
+Feature: First test # test.feature:1
+  this is my test about install behave
+  we need to learn more about to behave
+  to automated APi test cases
+  Scenario: Install behave                    # test.feature:6
+    Given I need install behave               # None
+    When I am in the class                    # None
+    And I am in the computer                  # None
+    And I have the installer                  # None
+    But I am tired                            # None
+    Then I did not completed the installation # None
+
+  Scenario: Review behave                 # test.feature:14
+    Given I need  behave installation     # None
+    When I am in the installation file    # None
+    Then I have reviewed the installation # None
+
+
+Failing scenarios:
+  test.feature:6  Install behave
+  test.feature:14  Review behave
+
+0 features passed, 1 failed, 0 skipped
+0 scenarios passed, 2 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 9 undefined
+Took 0m0.000s
+
+You can implement step definitions for undefined steps with these snippets:
+
+@given(u'I need install behave')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Given I need install behave')
+
+@when(u'I am in the class')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am in the class')
+
+@when(u'I am in the computer')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am in the computer')
+
+@when(u'I have the installer')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I have the installer')
+
+@when(u'I am tired')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am tired')
+
+@then(u'I did not completed the installation')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Then I did not completed the installation')
+
+@given(u'I need  behave installation')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Given I need  behave installation')
+
+@when(u'I am in the installation file')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: When I am in the installation file')
+
+@then(u'I have reviewed the installation')
+def step_impl(context):
+    raise NotImplementedError(u'STEP: Then I have reviewed the installation')
+-------------------------------------------------------------------------------******************-----------------------------------------------------------------------------------------------------------------
+	
+Which one is the difference between both executions?
+
+Dry run is usually a test performed to see how a failure mitigation system will behave in the event of a real failure and when the test is run without dry run the test is executed without simulation or mitigation

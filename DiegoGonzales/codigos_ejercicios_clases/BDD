@@ -1,0 +1,22 @@
+BDD
+!_features
+	!_steps_definition
+			!_ui
+			!_api
+	!_UI
+		!_user
+		!_projects
+	!_API
+		!_user
+		!_projects
+
+
++----------------------+
+|   Bussines logics	   |
+------------------------
+|   Assertions         |
+------------------------
+|Support code + AT code|
++----------------------+
+
+estructure 

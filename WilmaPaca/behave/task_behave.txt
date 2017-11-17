@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+Research :
+* When and why BDD was defined
+When:
+2006 Chris Matts, North proposes the given-when-then for business analysis
+Why:
+To adresss recurring issues in Test Drive Development
+The most important aspects of BDD
+1. Offrers a guide more preccise to organize the conversation with developers, testers and PO/Customer
+2. It has notation clear for all person (Given, when, then)
+3. Abstract levels  of software related to business 
+
+* Why is useful and when could be applied.
+- Provide a functional documentation with scenarios into user stories
+- Scenarios are expressed in  given-when-then
+- To perform emphasys  features with single answers
+- emphasize "mocking"(Describe relationsships all features).
+- Reduce cost
+- Faster release
+- Use conversations around examples
+- Express in a form that can be easily automated
+- Reduce lost information and misunderstandings
+
+* Which type of teams could implement BDD
+- Because provide a single answer
+- Increase collaboration with developers, testers and PO/Customer
+- Role-feature and user stories are more expressive
+- Also when user stories with given-when-then format , it is as technical documentation
+
+* Structure of a feature – Give an example
+     Name
+     Size [Optional]
+     Priority 
+Feature: Transferring money between accounts
+Priority: high
+
+* Structure of a user story – Give an example
+Narrative:
+As a [role]
+I want [feature]
+So that [benefit]
+
+In order to manage my money more efficiently
+As a bank client
+I want to transfer funds between my accounts
+So that I can get to my destination quickly
+
+* Structure of a scenario – Give an example
+Scenario: Withdraw money from account
+• Given I have $100 in my account
+• When I request $20
+• Then $20 should be dispensed
+
+* Differences between BDD and BDT
+BDT: Describe a system's behavior without details in a specific language
+BDD: it has business goal and translates to features and stories

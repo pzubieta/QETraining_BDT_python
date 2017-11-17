@@ -1,0 +1,42 @@
+****Research
+**When and why BDD was defined
+
+
+ 
+
+The concept of Behavior Driven Development (BDD) is something that emerged in 2006 by Dan North, in response to the problems that occurred when teaching TDD.
+
+**The most important aspects of BDD
+
+The most important aspects of BDD
+* BDD offers more precise guidance on organizing the conversation between developers, testers and domain experts. In this way the feedback is easier and the team can focus on the behavior.
+
+**Why is useful and when could be applied.
+ BDD is a team methodology and it  has the advantage of facilitating communication between all those involved in the development, whether technical or not. 
+ - BDD is the union of several practices considered agile and useful by software developers.
+** Which type of teams could implement BDD
+ 
+Development and testing teams
+
+. It can be used by any kind of teams.
+
+
+****Structure of a feature – Give an example
+As customer, I want to buy a _theater ticket_.
+
+
+
+****Structure of a user story – Give an example
+
+I buy a ticket quickly and get a good user experience in the process
+
+****Structure of a scenario – Give an example
+Given a ticket with a cost of $100
+when I buy two tickets
+then the total cost of tickets should be $200
+
+****Differences between BDD and BDT
+
+The main difference related to BDD and BDT is the development team is not involved in the creation of tests in the Behaviour Driven testing.
+
+ 
