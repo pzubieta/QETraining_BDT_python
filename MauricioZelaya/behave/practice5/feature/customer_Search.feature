@@ -4,7 +4,9 @@ Feature: customer search
     Given a <Customer_ID>
       And a <Customer_Name>
     When I request the <total_amount> of a purchase
-    Then I get the <Customer_ID> information
+    Then I get the <Customer_ID>
+      And I get the <Customer_Name>
+
 
 
 

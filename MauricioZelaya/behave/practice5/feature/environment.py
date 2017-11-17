@@ -4,6 +4,7 @@ def before_all(context):
     context.users = usersList()
     # print(context.users)
     context.total_amount_per_user = totalAmountList()
+    # print(context.total_amount_per_user)
 
 
 # def before_feature(context, feature):
