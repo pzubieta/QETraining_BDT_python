@@ -13,8 +13,6 @@ def before_feature(context, feature):
     if 'comments' in feature.tags:
         context.user = generic_data['USERS']['USER_MAURICIO']
         context.apiKey = generic_data['USERS']['API_KEY_MAURICIO']
-        print(context.user)
-        print(context.apiKey)
     elif 'videos' in feature.tags:
         context.user = generic_data['USERS']['USER_DENNIS']
         context.apiKey = generic_data['USERS']['API_KEY_DENNIS']
@@ -27,4 +25,3 @@ def before_feature(context, feature):
     elif 'playlist_item' in feature.tags:
         context.user = generic_data['USERS']['USER_DANEIVA']
         context.apiKey = generic_data['USERS']['API_KEY_DANEIVA']
-
