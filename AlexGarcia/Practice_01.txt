@@ -1,0 +1,14 @@
+firstNumber=25
+SecondBigNumber=1000
+print("FirstNumber =",firstNumber)
+print("SecondBigNumber =",SecondBigNumber)
+print("Addittion =",firstNumber+SecondBigNumber)
+print("Sustraction =",firstNumber-SecondBigNumber)
+print("Multiplication =",firstNumber*SecondBigNumber)
+print("Division =",firstNumber/SecondBigNumber)
+print("Modulus =",firstNumber%SecondBigNumber)
+print("Exponent =",firstNumber**SecondBigNumber)
+print("Floor division =",SecondBigNumber//firstNumber)
+
+
+

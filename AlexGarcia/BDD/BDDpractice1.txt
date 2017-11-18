@@ -1,0 +1,47 @@
+﻿RESEARCH:
+* When and why BDD was defined
+  >La idea nacio el 2003 por un grupo de personas que exploraban mejores formas de hacer TDD y Dan North lo llamo BDD. DDD nació para evitar los históricos problemas que conllevan las malas y diferentes interpretaciones de las necesidades del negocio
+
+  
+* The most aspects of BDD
+ > El uso de ejemplos en múltiples niveles para crear un conocimiento compartido y terminar con la incertidumbre, creando software que importa. "Dan North"
+
+ 
+* Why is useful and when could be applied
+ > Es util por que propociona metodo claro de como impletemetar el codigo y los test cases tanto del lado de DEV como el lado de QE, BDD deberia ser aplicare para tener un mismo “framework” de comunicación y colaboración entre desarrolladores, QA y roles no técnicos, o de negocio, en un proyecto de software. Y para tener ese punto común entre todos esos actores, algo clave es tener un lenguaje común
+
+ 
+* Which type of teams could implement BDD
+ > BDD deberia ser implementedo por todo equipo de desarrollo(PO, Devs and QA) o donde exista los famosos tres amigos
+ 
+ 
+* STRUCTRURE OF A FEATURE
+	FEATURE: Tener Ventilador
+	AS: BQE
+	I WANT: Tener un ventilador a un costado mio para trabajar mejor
+
+	
+* Structure of a user story:
+	No encontre mucha diferencia entre un FEATURE y un user story podria aclararmos eso
+
+
+* STRUCTRURE OF A SCENARIO
+	SCENARIO: Obterner una ventilador a un costado mio
+		GIVE que me converti en BQE 
+		AND estos dias hace mucho calor
+		
+		WHEN Tenga calor 
+		AND Necesite refrescarme
+		
+		THEN Encendere mi ventilador 
+		
+
+DIFFERENCES BETWEEN BDD AND TDD
+TDD
+> Mayormente escrito por Desarrollado
+> Escrito para probar cada unidad de código (Prueba unitaria)
+> Diseño de escenario de bajo nivel
+BDD
+> Escrito por Stakeholders o persona no técnica
+> Diseñar escenarios de alto nivel para poner a prueba las expectativas del software
+> Diseñado normalmente para pruebas de aceptación

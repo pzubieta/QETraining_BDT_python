@@ -1,0 +1,15 @@
+2017-11-07 16:34:56,499 - __main__ - INFO - Creating Items
+2017-11-07 16:34:56,499 - __main__ - INFO - Show Items
+2017-11-07 16:55:33,318 - __main__ - INFO - Creating Items
+2017-11-07 16:55:33,318 - store.store - INFO - Append the new Item Accione
+2017-11-07 16:55:33,318 - store.store - INFO - Append the new Item Bass one
+2017-11-07 16:55:33,318 - store.store - INFO - Append the new Item Accione P
+2017-11-07 16:55:33,318 - __main__ - INFO - Show Items
+2017-11-07 16:55:41,246 - store.store - INFO - Calculating the total sold
+2017-11-07 16:55:51,177 - __main__ - INFO - Creating Items
+2017-11-07 16:55:51,177 - store.store - INFO - Append the new Item Accione
+2017-11-07 16:55:51,177 - store.store - INFO - Append the new Item Bass one
+2017-11-07 16:55:51,177 - store.store - INFO - Append the new Item Accione P
+2017-11-07 16:55:51,177 - __main__ - INFO - Show Items
+2017-11-07 16:55:57,134 - store.store - INFO - Calculating the total sold
+2017-11-07 16:55:57,134 - store.store - INFO - Decreasing the store amount in 10

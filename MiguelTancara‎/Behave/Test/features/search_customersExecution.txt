@@ -1,0 +1,41 @@
+without copyright commented
+============================
+behave search_customer.feature --dry-run
+
+ParseError: Failed to parse "/home/miqui/Projects/python/Behave/Test/features/search_customer.feature":
+Parser failure in state init, at line 1: 'Copyright (C) 2017 Miquilin - All Rights Reserved. You may use, distribute and modify this code under the terms of the XYZ license, which unfortunately won't be written for another century.'
+REASON: No feature found.
+
+
+behave search_customer.feature
+
+ParseError: Failed to parse "/home/miqui/Projects/python/Behave/Test/features/search_customer.feature":
+Parser failure in state init, at line 1: 'Copyright (C) 2017 Miquilin - All Rights Reserved. You may use, distribute and modify this code under the terms of the XYZ license, which unfortunately won't be written for another century.'
+REASON: No feature found.
+
+
+
+with copyright commented
+============================
+behave search_customer.feature --dry-run
+
+Feature: search Wikipedia # search_customer.feature:5
+  User should be able to search any of the articles saved in wikipedia
+  Scenario: First Scenario  # search_customer.feature:9
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+
+behave search_customer.feature
+
+Feature: search Wikipedia # search_customer.feature:5
+  User should be able to search any of the articles saved in wikipedia
+  Scenario: First Scenario  # search_customer.feature:9
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s

@@ -1,0 +1,282 @@
+git clone path
+git add
+
+
+.
+Application\ Data  My\ Documents                                                                                 Pictures
+Contacts           NetHood                                                                                       PrintHood
+Cookies            NTUSER.DAT                                                                                    Recent
+Desktop            ntuser.dat.LOG1                                                                               Saved\ Games
+Documents          ntuser.dat.LOG2                                                                               Searches
+Downloads          NTUSER.DAT{d044f646-ae7e-11e3-80bf-b8ca3aeed8ca}.TM.blf                                       SendTo
+Favorites          NTUSER.DAT{d044f646-ae7e-11e3-80bf-b8ca3aeed8ca}.TMContainer00000000000000000001.regtrans-ms  Start\ Menu
+Links              NTUSER.DAT{d044f646-ae7e-11e3-80bf-b8ca3aeed8ca}.TMContainer00000000000000000002.regtrans-ms  Templates
+Local\ Settings    ntuser.ini                                                                                    Videos
+
+Administrator@bdt-python-4 MINGW64 ~
+$ cd Desktop/
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ ls
+cursoAPITesting/  desktop.ini  pycharm-community-2017.2.3.exe*  python-3.6.2-amd64.exe*  pythoncurso/
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ cls
+bash: cls: command not found
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ clear
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ git clone https://github.com/karimeSalomon/QETraining_BDT_python.git
+Cloning into 'QETraining_BDT_python'...
+remote: Counting objects: 45, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 45 (delta 19), reused 42 (delta 19), pack-reused 0
+Unpacking objects: 100% (45/45), done.
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ dir
+cursoAPITesting  desktop.ini  pycharm-community-2017.2.3.exe  python-3.6.2-amd64.exe  pythoncurso  QETraining_BDT_python
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ cd QETraining_BDT_python/
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Administrator/Desktop/QETraining_BDT_python/.git/
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python (master)
+$ cd..
+bash: cd..: command not found
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python (master)
+$ dir
+AlejandroAlcocer  ArielZurita    DennisGamboa   JulietaEscalera    LucioBuitron        MiguelTancara‎   README.md
+AlexGarcia        DaneivaGamboa  DiegoGonzales  KaterinaAnzoleaga  MarcelaBarrionuevo  NinoshkaOvando  RosarioFalconi
+AlvaroDaza        DanielaTicona‎  GladysCopaga   LourdesVillca      MauricioZelaya      PabloZubieta    WilmaPaca
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python (master)
+$ cd ..
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ dir
+cursoAPITesting  desktop.ini  pycharm-community-2017.2.3.exe  python-3.6.2-amd64.exe  pythoncurso  QETraining_BDT_python
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ remove QETraining_BDT_python/
+bash: remove: command not found
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ dir
+cursoAPITesting  desktop.ini  pycharm-community-2017.2.3.exe  python-3.6.2-amd64.exe  pythoncurso  QETraining_BDT_python5555
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ git clone https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git
+Cloning into 'QETraining_BDT_python'...
+remote: Counting objects: 45, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 45 (delta 19), reused 45 (delta 19), pack-reused 0
+Unpacking objects: 100% (45/45), done.
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ dir
+cursoAPITesting  pycharm-community-2017.2.3.exe  pythoncurso            QETraining_BDT_python5555
+desktop.ini      python-3.6.2-amd64.exe          QETraining_BDT_python
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop
+$ cd QETraining_BDT_python
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python (master)
+$ dir
+AlejandroAlcocer  ArielZurita    DennisGamboa   JulietaEscalera    LucioBuitron        MiguelTancara‎   README.md
+AlexGarcia        DaneivaGamboa  DiegoGonzales  KaterinaAnzoleaga  MarcelaBarrionuevo  NinoshkaOvando  RosarioFalconi
+AlvaroDaza        DanielaTicona‎  GladysCopaga   LourdesVillca      MauricioZelaya      PabloZubieta    WilmaPaca
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python (master)
+$ cd DiegoGonzales/
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ dir
+README.md
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ touch "Diego" > README.md
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ touch text.txt
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Diego
+        text.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ te
+tee.exe   test      test.exe
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ dir
+Diego  README.md  text.txt
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ cat text.txt
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git add *
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Diego
+        modified:   README.md
+        new file:   text.txt
+
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git commit -m "tarea de operadores aritmeticos"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@bdt-python-4.(none)')
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git/'
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git commit -m "tarea de operadores aritmeticos"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@bdt-python-4.(none)')
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git config --global user.email "devsoftbol@gmail.com"
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git config --global user.name "diego"
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git commit -m "tarea de operadores aritmeticos"
+[master 626f77a] tarea de operadores aritmeticos
+ 3 files changed, 7 deletions(-)
+ create mode 100644 DiegoGonzales/Diego
+ create mode 100644 DiegoGonzales/text.txt
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 334 bytes | 334.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git
+   ffd38ef..626f77a  master -> master
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git add index.py
+git status
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.py
+
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git commit -m "mi codigo"
+[master f0737a6] mi codigo
+ 1 file changed, 17 insertions(+)
+ create mode 100644 DiegoGonzales/index.py
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 506 bytes | 506.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git
+   626f77a..f0737a6  master -> master
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git remote -v
+origin  https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git (fetch)
+origin  https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git (push)
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git remote add upstream ^C
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git remote add upstream  https://github.com/Diego-Gonzales-Jala/QETraining_BDT_python.git
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$ git fetch
+
+Administrator@bdt-python-4 MINGW64 ~/Desktop/QETraining_BDT_python/DiegoGonzales (master)
+$
+
+
+
+
+- en el funcional manejo de los status cdode

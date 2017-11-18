@@ -1,0 +1,61 @@
+Research:
+
+ - When and why BDD was defined
+	According inviqa.com all started with agiledox in 2003 the first ancestor of BDD was written by Chris Stevenson, that evolved in later in BDD. In 2006 Dan Notrh in collaboration with Chris Matts documents the approach in "Introducing BDD". Alistair helped bring BDD principles into Inviqa and continued to support the delivery of projects and the progression of BDD practices within the development teams
+
+ - Them most important Aspects of BDD
+   * Better priorization of business critical features.
+   * Allows tracking back from Dev to work to Bussiness objctives
+   * Developed software design is made in a way that supports upcoming business needs.
+   * The product is closer to the customer needs.
+   * Low costs of maintenance and better code quality.
+   * BDD helps on communication between developers, testers, domain experts and all parts.
+   * The given-when-then canvas are easy to understand and learn
+   * Has good tools to generate automathic en user documentation
+
+ - Why is useful and when should be applied
+   * According Thomas Sundberg BDD should be used for verifying the most important parts of the application using end-to-end tests but can be applied everywhere.But the best answer woud be "In all the places where the business has reason to have opinions about the behaviour."
+
+
+ - Which type of teams could implement BDD
+   * It can be used by any kind of teams
+
+Structure of a feature
+ - Structure of a feature - Give an example
+The structure is defined by this schema:
+	'Given, describes the initial context for the example
+	'When' describes the action that the actor in the system or stakeholder performs
+	'Then' describes the expected outcome of that action
+
+an example would be:
+
+
+Feature: Selled shoes are discounted from inventory
+In order to keep track of inventory
+As a vendor
+I want to sell shoes registering the money income and the shoes that outcomes
+
+
+- Structure of a user story
+
+Feature: Returned shoes go back to factory
+In order to keep track of factory defective shoes
+As a shoemaker owner
+I want to set shoes for going back to the factory when they are defective
+
+Example: Defective items should be returned to the factory
+Given a vendor that discovers a defect on a pair of shoes
+And I currently have three black shoes left in stock
+When he returns the pair of shoes to the factory
+Then I should have 2 black sweaters in the store
+
+- Structure of a scenario - Give an example
+Scenario: Defective shoes should be returned to stock
+Given a vendor/customer that discovered a defective pair of shoes
+And I currently have three pair of shoes left in stock
+When he returns the defective pair to the factory
+Then I should have 2 pair of shoes in stock
+
+- Difference between BDD and BDT
+  * BDD is oriented to development and works directly on customer needs/requirements
+  * BDT is oriented to testing and the main features to develop are automated tests.
