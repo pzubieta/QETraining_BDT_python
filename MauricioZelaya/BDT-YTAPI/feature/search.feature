@@ -7,5 +7,5 @@ Feature: This will test the search method feature for the API in youtube
     Then I get a <code> response
 
     Examples:
-      | method  | code |snippet|
-      | /search | 200  |snippet|
+      | method    | code | snippet |
+      | /search   | 200  | snippet |

@@ -2,14 +2,14 @@ import requests
 
 def get_conn(host, root_path, method, payload = None):
     """
-    this method will request a get and return the status code
-    :param host: the host
-    :param root_path: the rootpath of the url
-    :param method: the method that will me test
-    :param key: API key of the user
-    :param snippet: optional param for some methods
-    :return: the status code
+    This method will set a get to a method.
+    :param host: The host.
+    :param root_path: The root_path.
+    :param method: The method that will be tested.
+    :param payload: Payload to send.
+    :return: the response code
     """
+
     endpoint = host + root_path + method
     payload = payload
     request = requests.get(endpoint, payload)
