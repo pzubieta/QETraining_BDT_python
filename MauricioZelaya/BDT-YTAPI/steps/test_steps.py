@@ -15,5 +15,6 @@ def step_impl(context):
 
 @then(u'I receive status code {status}')
 def step_impl(context, status):
-    currentStatusCode = getConnection(context.host, context.rootpath)
+    payload={"key": context.apiKey, "parentId": "z13icrq45mzjfvkpv04ce54gbnjgvroojf0", "part": "snippet"}
+    currentStatusCode = get_conn(context.host, context.rootpath, '/comments', payload)
     expect(currentStatusCode).to_equal(int(status))
