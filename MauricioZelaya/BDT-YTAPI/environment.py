@@ -10,7 +10,7 @@ def before_all(context):
 
 
 def before_feature(context, feature):
-    if 'comments' in feature.tags:
+    if 'comments' in feature.tags or 'commentThreads' in feature.tags:
         context.user = generic_data['USERS']['USER_MAURICIO']
         context.apiKey = generic_data['USERS']['API_KEY_MAURICIO']
     elif 'videos' in feature.tags:

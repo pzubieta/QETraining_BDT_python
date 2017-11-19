@@ -11,4 +11,4 @@ def step_impl(context, method, snippet):
 def step_impl(context, code):
     context.code = code
     expect(context.code).to_equal(get_conn(context.host, context.rootpath,
-                                           context.method, context.payload))
+                                           context.method, 'GET', context.payload))

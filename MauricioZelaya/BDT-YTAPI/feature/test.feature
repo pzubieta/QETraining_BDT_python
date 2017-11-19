@@ -1,5 +1,5 @@
+@comments
 Feature: test
-  @comments
   Scenario: test comments
     Given I have connection to "youtube.com"
       And a youtube/v3
